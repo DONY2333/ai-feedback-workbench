@@ -120,7 +120,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-默认无需 API Key，不调用模型或 Langfuse。保留获准使用的 `evaluation/results/`、`analysis/results/` 成果；部分 CSV/Excel 被 Git 忽略，仅克隆源码不保证完整演示证据。缺失时提示，不自动重建。Windows pyarrow/DLL 导入失败时降级为转义 HTML 表格。
+默认无需 API Key，不调用模型或 Langfuse。公开仓库已包含 `evaluation/results/`、`analysis/results/` 的历史演示成果及脱敏后的输入 Excel，克隆后可离线浏览；新用户批次与临时输出仍由 Git 忽略。文件缺失时提示，不自动重建。Windows pyarrow/DLL 导入失败时降级为转义 HTML 表格。
 独立真实模型脚本才需要 `.env.example` 所示配置；系统环境变量优先，勿提交 `.env` 或展示密钥。
 
 ```powershell

@@ -1,4 +1,4 @@
-# Phase E1：离线候选 Issue
+# 问题归并与产品洞察
 
 此流程只读取历史 V3 Dev 与 Holdout 预测，不调用 API，不读取 Gold 标签纠正预测，不改变单条 taxonomy。它不是已验证的产品事实，所有自动 Issue 都需要人工复核。Holdout 在此作为产品分析输入，不进行新的模型评测。
 
@@ -46,16 +46,16 @@ CSV 的列表/分布字段使用 JSON 字符串。潜在 Excel 公式文本加�
 
 所有符合准入条件的反馈必须正好覆盖一次；重复、遗漏、未知 ID、跨产品或跨模块、建议混入故障均拒绝。计数、分布和代表原文重新从源数据计算，不信任手改统计。该简化复核入口不支持跨模块合并或修改单条预测。
 
-## 可选后续 LLM 方案（本轮不实现、不调用）
-
-离线候选不需要 LLM。若后续授权更强语义归并，可只处理 13 个多成员粗分组（13 次初始请求），11 个单成员组直接保留；若所有 24 组都需生成语义标题，则为 24 次初始请求。请求按产品/模块隔离、结构化 JSON 输出，并沿用成员覆盖校验。上述数字不含重试；本轮实际模型调用为 0。
-
-## Phase E2：产品洞察与 Top 5 建议
+## 产品洞察与 Top 5 建议
 
 ```powershell
 .\.venv\Scripts\python.exe analysis\build_product_insights.py
 ```
 
-只读上述 E1 快照，校验五份输入后输出到 `analysis/results/e2_product_insights/`：产品报告、Top 5 CSV、产品模块对比 CSV、原文证据 CSV、独立复核审计 JSON。不重跑归并或模型，不改变 E1 review。报告包含本轮固定编辑决策、证据依据及方案建议，并不代表自动或最终产品签核。
+读取已保存的问题归并结果，校验五份输入后输出到 `analysis/results/e2_product_insights/`：产品报告、Top 5 CSV、产品模块对比 CSV、原文证据 CSV、独立复核审计 JSON。历史 Top 5 的标题、优先级和建议保存在 `build_product_insights.py` 的 `DECISIONS` 中，属于离线编辑判断，生成脚本负责核验证据与导出。
 
-输出目录已存在则拒绝覆盖。复现可用 `--output analysis/results/e2_reproduced` 指定新目录；输入变化时应重新核对编辑决策，不应把该脚本当成泛化的自动产品分析模型。为快速收尾跳过可选 XLSX。
+输出目录已存在则拒绝覆盖。复现可用 `--output analysis/results/e2_reproduced` 指定新目录；输入变化时应重新核对编辑决策。当前导出格式为 CSV、JSON 和 Markdown。
+
+## 网页新批次
+
+网页通过 `run_from_records()` 复用归并逻辑，通过 `build_for_batch()` 生成批次统计和候选卡片。新批次不使用历史 `DECISIONS`，候选仍需复核；所有输出独立保存在 `analysis/results/user_runs/`，与以上历史结果分开。

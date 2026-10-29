@@ -16,7 +16,7 @@ Python/pandas 读取清洗 Excel，独立模型客户端通过 OpenAI-compatible
 
 ## 4. 最大问题：AI 输出可信吗？
 
-JSON 格式正确不等于业务判断正确。最初自由文本模块无法与人工标签稳定比较，Bug 和使用困难也容易混淆。因此先建立本地逐字段比较、错误样本和版本结果，再考虑平台化。场景、情绪及证据质量尚未被本轮分类指标覆盖，不能把八字段全部宣称为已验证。
+JSON 格式正确不等于业务判断正确。最初自由文本模块无法与人工标签稳定比较，Bug 和使用困难也容易混淆。因此先建立本地逐字段比较、错误样本和版本结果，再考虑平台化。当前分类指标只覆盖有效性、类型、模块和严重程度，场景、情绪及证据质量仍需另行验证。
 
 ## 5. Gold Set & Taxonomy
 
@@ -55,11 +55,11 @@ Dev 为 L001–L020，共 20 条；Holdout 为 L021–L043 + W001–W039，共 6
 
 主要错误：高→中 11、使用困难→Bug 5、安装/更新→性能/稳定性 3。同一评论可贡献多个字段错误。证据见[实验总结](../evaluation/results/experiment_summary.md)。
 
-## 9. Langfuse Platformization
+## 9. 用 Langfuse 管理版本实验
 
 本地 Evaluation 解决方法和口径，Langfuse 解决实验管理与可观察性。Trace/Generation 记录调用，Score 记录 Gold 比较，Dataset 固定 Dev，Experiment 区分版本。
 
-C0 用 L001 验证历史 Prompt/Schema；C1 发现当前 normalizer 将 V1 自由模块映射成「其他」造成假正确。之后隔离 raw_output、normalized_output、score_input，V1 自由文本保留 Exact Match。历史三版 summary 回放一致，但缺完整旧源码和原始响应，均标 partial reproduction。
+先用 L001 验证历史 Prompt/Schema，随后发现当前 normalizer 将 V1 自由模块映射成「其他」造成假正确。之后隔离 raw_output、normalized_output、score_input，V1 自由文本保留 Exact Match。历史三版 summary 回放一致，但缺完整旧源码和原始响应，均标 partial reproduction。
 
 正式 r3 三版各重新生成 20 条：60 次请求、60 成功、294 Scores、0 失败、0 retry。V1/V2/V3 All-fields 为 0%/60%/70%；V3 Valid 100%、Type 95%、Module 90%、Severity 72.22%。它不是历史 Dev 或 Holdout，小幅差异可能来自重新生成非完全确定性。
 
@@ -75,7 +75,7 @@ r3 timeout 45 秒、SDK max_retries=0，每项最多两次，记录 attempt、�
 
 复用历史 V3 Dev + Holdout，不混 r3，不用 Gold 修正：82 条 → 63 条问题反馈 → 产品与预测模块粗分 24 组 → 54 候选 Issue → Top 5 与竞品画像。
 
-E1 是保守离线规则：同产品同模块内按问题锚点及足够长的相同痛点归并，建议单独分流，不确定保留单条。不是 LLM/embedding 聚类。54 个中仅 4 个多成员，存在碎片化；E2 重点核对 Top 5 等候选，不是全面深度人工复核或负责人签核。
+归并使用保守离线规则：同产品同模块内按问题锚点及足够长的相同痛点归并，建议单独分流，不确定保留单条。54 个中仅 4 个多成员，存在碎片化。后续重点核对 Top 5 等候选，尚未全面深度人工复核。Top 5 的方案与排序作为固定编辑内容保存在脚本中；新批次仅生成独立候选，不套用这些结论。
 
 在当前样本中，飞书 31 条问题反馈里通知 6、账号 5、会议 4；企业微信 32 条里账号及性能/稳定性各 7、安装/更新 6。Top 5 是通知未送达/展示异常（5 条）、验证码未送达（2）、附加资源下载失败（3）、语言切换不生效（3）、换机验证循环（1）。依据重复、预测严重程度与核心场景排序，不编商业分值。
 
@@ -95,4 +95,4 @@ Notification Health Check 是产品方案建议：检查可读取状态 → 修�
 
 ## 14. 如果继续做（仅可能方向）
 
-扩大真实反馈；新 pristine test set；semantic clustering；核心痛点自由文本评价；Production feedback loop；用户验证与技术评审。以上未实现，本轮到此收尾。
+优先补充更多来源的真实反馈与独立测试集，验证严重程度和长尾模块；对问题归并做人工抽检，再判断是否需要语义聚类。通知诊断方案仍需用户访谈和技术评审。

@@ -1,4 +1,4 @@
-"""最终包装只读完整性检查；不创建模型或 Langfuse 客户端。"""
+"""公开文档的链接、数据和功能边界检查；不连接外部服务。"""
 
 import csv
 import json
@@ -8,8 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = [ROOT / "README.md"] + [ROOT / "docs" / name for name in (
-    "project_case.md", "resume_bullets.md", "interview_3min_pitch.md",
-    "interview_deep_dive.md", "screenshot_checklist.md", "project_status.md",
+    "project_case.md", "project_status.md", "publication_notes.md",
+    "top1_notification_mini_prd.md", "top1_notification_figma_spec.md",
 )]
 
 
@@ -41,16 +41,12 @@ def test_packaging_metrics_and_top1_evidence_match_saved_sources():
         assert all(feedback_id in text for feedback_id in top["evidence_ids"])
 
 
-def test_packaging_interview_and_resume_scope():
-    deep = (ROOT / "docs/interview_deep_dive.md").read_text(encoding="utf-8")
-    assert re.findall(r"^## (\d+)\.", deep, re.M) == [str(i) for i in range(1, 39)]
-    shots = (ROOT / "docs/screenshot_checklist.md").read_text(encoding="utf-8")
-    assert len(re.findall(r"^## \d+\.", shots, re.M)) == 10
-    pitch = (ROOT / "docs/interview_3min_pitch.md").read_text(encoding="utf-8")
-    short = pitch.split("## 60-second version", 1)[1].strip()
-    assert 180 <= len(re.findall(r"[\u4e00-\u9fff]", short)) <= 260
-    resume = (ROOT / "docs/resume_bullets.md").read_text(encoding="utf-8")
-    formal, compressed = resume.split("## A. 推荐正式版", 1)[1].split("## B. 一页简历压缩版")
-    assert len(re.findall(r"^- ", formal, re.M)) == 4
-    bullets = re.findall(r"^- (.+)", compressed.split("## 表述边界")[0], re.M)
-    assert len(bullets) == 4 and all(len(line) <= 80 for line in bullets)
+def test_public_docs_describe_actual_demo_scope():
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    for required in ("Mock", "规则", "离线编辑判断", "新批次不会套用", "没有实际 Figma", "未上线"):
+        assert required in readme
+    for source in ("analysis/results/user_runs/<batch_id>/", "analysis/README.md", "docs/publication_notes.md"):
+        assert source in readme
+    for path in DOCS:
+        text = path.read_text(encoding="utf-8")
+        assert not any(phrase in text for phrase in ("本轮到此收尾", "为快速收尾", "不要添加用户画像", "部分结果被 Git 忽略"))

@@ -1,0 +1,10 @@
+﻿metric,value
+input_count,82
+eligible_count,63
+excluded_count,19
+coarse_group_count,24
+issue_count,54
+needs_review_count,54
+eligible_by_product,"{""飞书/Lark"": 31, ""企业微信/WeCom"": 32}"
+missing_scenario_count,82
+model_api_calls,0

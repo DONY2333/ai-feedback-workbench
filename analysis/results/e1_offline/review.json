@@ -1,0 +1,500 @@
+{
+  "review_version": 1,
+  "issues": [
+    {
+      "issue_id": "ISS-d24e66adca12",
+      "issue_title": "兼容性/多端：产品挑手机，对手机的兼容适配不佳",
+      "evidence_ids": [
+        "W013"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-ab72710c8df7",
+      "issue_title": "界面语言切换异常",
+      "evidence_ids": [
+        "W024",
+        "W027",
+        "W030"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-5334fcf32d8f",
+      "issue_title": "国际化/翻译：界面主要为中文，英文翻译不完整，缺少葡萄牙语和西班牙语，条款与条件也为中文，语言难以理解导致产品实用性受限。",
+      "evidence_ids": [
+        "W022"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-6b4345525155",
+      "issue_title": "安装更新附加文件下载异常",
+      "evidence_ids": [
+        "W003",
+        "W006",
+        "W007"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-e2fd11b15a0a",
+      "issue_title": "安装/更新：反复提示使用更新版本，却无处找到新版本，导致无法使用。",
+      "evidence_ids": [
+        "W023"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-46a0ec1fda2e",
+      "issue_title": "安装/更新：应用已是最新版本却仍要求更新，导致无法打开",
+      "evidence_ids": [
+        "W017"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-517b5e9f5977",
+      "issue_title": "安装/更新：要求下载程式却无法下载，重装后问题依旧，导致线上工作完全停摆。",
+      "evidence_ids": [
+        "W005"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-c1496876336d",
+      "issue_title": "客户管理/外部联系：在职继承提示与实际结果不一致，操作后本人立即退群，被继承者触发风控被封禁，多次投诉未获处理。",
+      "evidence_ids": [
+        "W039"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-1d03311fcf65",
+      "issue_title": "工作流/权限/组织：删除成员后无离职记录、继承入口或风险提示；重新加入生成新账号，原账号聊天、群聊、文件和权限等数据无法同步或找回。",
+      "evidence_ids": [
+        "W034"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-3d451f99e867",
+      "issue_title": "性能/稳定性：打开应用后持续无响应",
+      "evidence_ids": [
+        "W016"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-db081d568173",
+      "issue_title": "性能/稳定性：无法再次进入应用，更新后仍未解决",
+      "evidence_ids": [
+        "W012"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-9fd4e3b83181",
+      "issue_title": "性能/稳定性：查看工资时被退出，尝试10次仍无法进入",
+      "evidence_ids": [
+        "W010"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-ff149ccff3aa",
+      "issue_title": "性能/稳定性：用户表示网络正常且速度很快，但应用反复提示无网络，无法完成加载。",
+      "evidence_ids": [
+        "W029"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-681b00680ef3",
+      "issue_title": "性能/稳定性：近期两次无法进入应用并闪退，只有重新安装才能解决",
+      "evidence_ids": [
+        "W004"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-079b88442a5c",
+      "issue_title": "性能/稳定性：进入应用时无法加载，点击更新也无法完成",
+      "evidence_ids": [
+        "W011"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-f52b84759416",
+      "issue_title": "性能/稳定性：附加功能下载不断增加，应用陷入无限加载，无法直接使用",
+      "evidence_ids": [
+        "W009"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-b71e6b21b33a",
+      "issue_title": "聊天/消息：用户认为聊天缺乏隐私保护，拥有秘密访问权限的人可窥探所有消息",
+      "evidence_ids": [
+        "W019"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-568ec73ccc90",
+      "issue_title": "账号/登录/验证：新手机登录要求在旧手机上验证，旧手机重装后登录仍要求在旧手机自身验证，陷入验证循环，无法完成登录。",
+      "evidence_ids": [
+        "W015"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-e38efba239d3",
+      "issue_title": "账号/登录/验证：无法通过微信或手机账号密码登录，也无法注册；应用反复提示下载额外文件，但一直下载失败，导致无法使用。",
+      "evidence_ids": [
+        "W001"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-b2b2d4f47962",
+      "issue_title": "账号/登录/验证：注册列表中没有用户使用的829电话前缀，导致无法注册并开始使用应用。",
+      "evidence_ids": [
+        "W020"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-ad4d08824d91",
+      "issue_title": "账号/登录/验证：注销门槛高，客服等待时间长，耗时近两小时仍未解决；对个人信息安全和授权流程不满",
+      "evidence_ids": [
+        "W036"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-60fd2c14126f",
+      "issue_title": "账号/登录/验证：登录验证仅提供无法满足的同事辅助验证或原设备扫码，帮助文档所述短信验证和实名验证多次尝试均未出现，联系客服仍未解决。",
+      "evidence_ids": [
+        "W035"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-c89f9f1a604a",
+      "issue_title": "账号/登录/验证：频繁被强制退出登录，重新登录还被要求多重验证及强制刷脸。",
+      "evidence_ids": [
+        "W002"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-d5f85d2ed988",
+      "issue_title": "账号/登录/验证：登录失败",
+      "evidence_ids": [
+        "W033"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-31e97b3eccb3",
+      "issue_title": "消息通知送达或显示异常",
+      "evidence_ids": [
+        "W021"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-ff49af320a20",
+      "issue_title": "通知：推送通知已启用，但始终无法收到。",
+      "evidence_ids": [
+        "W008"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-d0708c75acf2",
+      "issue_title": "风控/申诉：账号因涉嫌违反法律被永久封禁，无法继续使用。",
+      "evidence_ids": [
+        "W028"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-b533116a5435",
+      "issue_title": "风控/申诉：账号被永久封禁后，多次申诉仍被要求联系企业管理员，长时间未能解决。",
+      "evidence_ids": [
+        "W038"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-baac825df79f",
+      "issue_title": "会议/通话：会议中麦克风静音响应略有延迟，用户希望会议操作更流畅。",
+      "evidence_ids": [
+        "L027"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-5f72dc50f620",
+      "issue_title": "会议/通话：免费版网络会议时长过短，用户认为实际上不得不购买付费会员。",
+      "evidence_ids": [
+        "L011"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-dba1780bcdf1",
+      "issue_title": "会议/通话：屏幕上只能显示9人，用户对此感到遗憾",
+      "evidence_ids": [
+        "L022"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-6bb421c63121",
+      "issue_title": "会议/通话：系统将用户接入非预期的其他通话",
+      "evidence_ids": [
+        "L032"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-9b281bd1143e",
+      "issue_title": "其他：一旦按键交互，屏幕就会异常缩放",
+      "evidence_ids": [
+        "L034"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-89bb73e00091",
+      "issue_title": "其他：希望增加归档功能，避免内容集中堆积在首页",
+      "evidence_ids": [
+        "L019"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-58f66da193f5",
+      "issue_title": "兼容性/多端：无法在电脑端并行使用手机上的 Lark 工作群，尝试成员代码相关操作后仍未成功。",
+      "evidence_ids": [
+        "L036"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-ff6a31476cf0",
+      "issue_title": "性能/稳定性：产品多处运行卡顿，使用不流畅。",
+      "evidence_ids": [
+        "L037"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-7c1b6e57b3dd",
+      "issue_title": "性能/稳定性：持续出现网络错误",
+      "evidence_ids": [
+        "L018"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-b6ff08144dfa",
+      "issue_title": "搜索：搜索旧聊天消息时不容易找到所需信息",
+      "evidence_ids": [
+        "L014"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-9391a9f3334f",
+      "issue_title": "文件/分享：手机端不支持直接将照片或文档分享到其他平台",
+      "evidence_ids": [
+        "L026"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-201a6d766256",
+      "issue_title": "文档/编辑：修改内容无法同步更新，重启后仍未改变；有时删除一两个文字会导致整段内容重复，问题持续半年以上未改善。",
+      "evidence_ids": [
+        "L005"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-9dd461e59873",
+      "issue_title": "文档/编辑：公式计算耗时过长，且功能有限",
+      "evidence_ids": [
+        "L025"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-df3e1bab57a0",
+      "issue_title": "日历：修改后的日程日期会比设定日期提前一天",
+      "evidence_ids": [
+        "L006"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-14aa7bb20e8f",
+      "issue_title": "浏览器/外链：内置浏览器不允许 Google OAuth 登录，且机器人按钮等场景无法总是手动复制链接到外部浏览器；希望提供完全禁用内置浏览器、直接使用外部浏览器打开链接的选项。",
+      "evidence_ids": [
+        "L009"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-a04d3766d3cf",
+      "issue_title": "聊天/消息：图片文字提取功能点击后无法使用，经过三次更新仍未修复。",
+      "evidence_ids": [
+        "L031"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-2aa0b6e3c578",
+      "issue_title": "聊天/消息：希望增加对更多 meme 服务商的接入支持；提及和表情渲染问题已明确归因于 Samsung Keyboard，而非 Lark。",
+      "evidence_ids": [
+        "L008"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-410b68841037",
+      "issue_title": "聊天/消息：缺少发送后修改内容、纠正打字错误的功能",
+      "evidence_ids": [
+        "L035"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-5775e076c278",
+      "issue_title": "表格/Base：对上传 Base 的体验不满，具体困难未说明",
+      "evidence_ids": [
+        "L020"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-138b4f4a6e20",
+      "issue_title": "账号验证码获取失败",
+      "evidence_ids": [
+        "L004",
+        "L028"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-354a717f42b9",
+      "issue_title": "账号/登录/验证：所有登录方式均失败，用户表示日本人似乎也无法完成身份验证，要求尽快解决。",
+      "evidence_ids": [
+        "L012"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-c91499babaff",
+      "issue_title": "账号/登录/验证：无法登录原有账号",
+      "evidence_ids": [
+        "L021"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-d51ee0010cdb",
+      "issue_title": "账号/登录/验证：验证码迟迟未送达，无法完成登录验证",
+      "evidence_ids": [
+        "L017"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-161bdf04491c",
+      "issue_title": "消息提醒音量不足",
+      "evidence_ids": [
+        "L015"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-3955d4f6ed9d",
+      "issue_title": "消息通知送达或显示异常",
+      "evidence_ids": [
+        "L002",
+        "L003",
+        "L010",
+        "L016",
+        "L038"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    },
+    {
+      "issue_id": "ISS-e87ee6cccedb",
+      "issue_title": "邮件：免费版缺少邮件路由及 catch-all 功能，希望开放使用。",
+      "evidence_ids": [
+        "L007"
+      ],
+      "review_status": "needs_review",
+      "review_note": ""
+    }
+  ]
+}

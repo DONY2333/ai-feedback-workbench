@@ -1,0 +1,202 @@
+{
+  "dataset": "feedback-dev-20",
+  "gold_id": "L001",
+  "model_api_calls": 3,
+  "started_at": "2026-10-21T04:43:06.502106+00:00",
+  "runs": [
+    {
+      "prompt_version": "v1",
+      "model": "gpt-6.1-sol",
+      "gold_id": "L001",
+      "dataset": "feedback-dev-20",
+      "run_name": "feedback-dev-v1",
+      "experiment_name": "feedback-dev-v1",
+      "split": "dev",
+      "evaluation_source": "gold_set_82",
+      "phase": "C0",
+      "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+      "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+      "max_retries": 0,
+      "timeout_seconds": 20.0,
+      "scoring_pipeline": "Phase A normalize_result + calculate_scores",
+      "status": "linked",
+      "trace_id": "ac879dce9f47d1cc4ff845a30b95dec5",
+      "generation_id": "c83e0071eaf16daa",
+      "raw_prediction": {
+        "是否为有效产品反馈": true,
+        "反馈类型": "正向评价",
+        "产品模块": "国外版本整体体验",
+        "用户场景": "未提及具体使用场景",
+        "核心痛点": "未指出具体痛点，仅表示可能有其他更好的产品",
+        "情绪倾向": "正向",
+        "严重程度": "低",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "scored_prediction": {
+        "是否为有效产品反馈": true,
+        "反馈类型": "正向评价",
+        "产品模块": "其他",
+        "用户场景": "未提及具体使用场景",
+        "核心痛点": "未指出具体痛点，仅表示可能有其他更好的产品",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "scores": {
+        "valid_correct": 0,
+        "feedback_type_correct": 0,
+        "product_module_correct": 1,
+        "all_fields_correct": 0
+      },
+      "normalization_changes": {
+        "产品模块": {
+          "raw": "国外版本整体体验",
+          "normalized": "其他"
+        },
+        "严重程度": {
+          "raw": "低",
+          "normalized": "不适用"
+        }
+      },
+      "dataset_item_id": "a372834b-c27e-5855-ae9b-f73f451b8e77",
+      "dataset_id": "cmvhmdekm003jad0jj2g3ywm6",
+      "experiment_id": "1cde1297-6522-4073-9530-7de243a426ba"
+    },
+    {
+      "prompt_version": "v2",
+      "model": "gpt-6.1-sol",
+      "gold_id": "L001",
+      "dataset": "feedback-dev-20",
+      "run_name": "feedback-dev-v2",
+      "experiment_name": "feedback-dev-v2",
+      "split": "dev",
+      "evaluation_source": "gold_set_82",
+      "phase": "C0",
+      "prompt_source": "evaluation\\prompts\\prompt_v2.md",
+      "prompt_sha256": "07640a3a31ff20a432f4fa70909789f5779dda5b7581b17305f3dac2470bd6f5",
+      "max_retries": 0,
+      "timeout_seconds": 20.0,
+      "scoring_pipeline": "Phase A normalize_result + calculate_scores",
+      "status": "linked",
+      "trace_id": "dbcaa5e49344be2189c4cba87650cb25",
+      "generation_id": "4a41e1f3c11d6861",
+      "raw_prediction": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "scored_prediction": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "scores": {
+        "valid_correct": 1,
+        "feedback_type_correct": 1,
+        "product_module_correct": 1,
+        "all_fields_correct": 1
+      },
+      "normalization_changes": {},
+      "dataset_item_id": "a372834b-c27e-5855-ae9b-f73f451b8e77",
+      "dataset_id": "cmvhmdekm003jad0jj2g3ywm6",
+      "experiment_id": "3e00738f-b6c0-40f2-9070-60f739ff6836"
+    },
+    {
+      "prompt_version": "v3",
+      "model": "gpt-6.1-sol",
+      "gold_id": "L001",
+      "dataset": "feedback-dev-20",
+      "run_name": "feedback-dev-v3",
+      "experiment_name": "feedback-dev-v3",
+      "split": "dev",
+      "evaluation_source": "gold_set_82",
+      "phase": "C0",
+      "prompt_source": "evaluation\\prompts\\prompt_v3.md",
+      "prompt_sha256": "1989ffe4535fd615c43cb56eeed5ea84eb70a59294a2ac55fa565e0718d2b7e5",
+      "max_retries": 0,
+      "timeout_seconds": 20.0,
+      "scoring_pipeline": "Phase A normalize_result + calculate_scores",
+      "status": "linked",
+      "trace_id": "68402257d111255e7756e49655930311",
+      "generation_id": "d83eea07f1e7dc23",
+      "raw_prediction": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "scored_prediction": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "scores": {
+        "valid_correct": 1,
+        "feedback_type_correct": 1,
+        "product_module_correct": 1,
+        "all_fields_correct": 1
+      },
+      "normalization_changes": {},
+      "dataset_item_id": "a372834b-c27e-5855-ae9b-f73f451b8e77",
+      "dataset_id": "cmvhmdekm003jad0jj2g3ywm6",
+      "experiment_id": "1fcf4d0e-5c22-4794-b3c5-bd65476a7dff"
+    }
+  ],
+  "server_verification": [
+    {
+      "run_name": "feedback-dev-v1",
+      "experiment_id": "1cde1297-6522-4073-9530-7de243a426ba",
+      "items": 1,
+      "generation_verified": true,
+      "scores": {
+        "all_fields_correct": false,
+        "valid_correct": false,
+        "product_module_correct": true,
+        "feedback_type_correct": false
+      }
+    },
+    {
+      "run_name": "feedback-dev-v2",
+      "experiment_id": "3e00738f-b6c0-40f2-9070-60f739ff6836",
+      "items": 1,
+      "generation_verified": true,
+      "scores": {
+        "feedback_type_correct": true,
+        "valid_correct": true,
+        "all_fields_correct": true,
+        "product_module_correct": true
+      }
+    },
+    {
+      "run_name": "feedback-dev-v3",
+      "experiment_id": "1fcf4d0e-5c22-4794-b3c5-bd65476a7dff",
+      "items": 1,
+      "generation_verified": true,
+      "scores": {
+        "valid_correct": true,
+        "product_module_correct": true,
+        "all_fields_correct": true,
+        "feedback_type_correct": true
+      }
+    }
+  ]
+}

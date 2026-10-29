@@ -1,0 +1,1224 @@
+{
+  "phase": "C2",
+  "dataset": "feedback-dev-20",
+  "dataset_id": "cmvhmdekm003jad0jj2g3ywm6",
+  "started_at": "2026-10-23T06:39:55.281504+00:00",
+  "model_api_calls": 14,
+  "model": "gpt-6.1-sol",
+  "max_retries": 0,
+  "timeout_seconds": 20.0,
+  "historical_replay": {
+    "v1": {
+      "prompt_version": "v1",
+      "normalization_version": "v1-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 1,
+          "accuracy": 0.05
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 12,
+          "accuracy": 0.6666666666666666
+        }
+      ]
+    },
+    "v2": {
+      "prompt_version": "v2",
+      "normalization_version": "v2-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 16,
+          "accuracy": 0.8
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 12,
+          "accuracy": 0.6666666666666666
+        }
+      ]
+    },
+    "v3": {
+      "prompt_version": "v3",
+      "normalization_version": "v3-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 20,
+          "accuracy": 1.0
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 14,
+          "accuracy": 0.7777777777777778
+        }
+      ]
+    }
+  },
+  "runs": [
+    {
+      "prompt_version": "v1",
+      "normalization_version": "v1-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+      "score_input_source": "normalized_output",
+      "experiment": "feedback-dev-v1-final-r2",
+      "model": "gpt-6.1-sol",
+      "dataset": "feedback-dev-20",
+      "split": "dev",
+      "evaluation_source": "gold_set_82",
+      "phase": "C2",
+      "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+      "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+      "max_retries": 0,
+      "timeout_seconds": 20.0,
+      "records": [
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L001",
+          "dataset_item_id": "a372834b-c27e-5855-ae9b-f73f451b8e77",
+          "input": {
+            "comment": "使用记录来看 国外版本还是不错的 但是或许还有其他跟更好点",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "不适用",
+            "产品模块": "其他",
+            "反馈类型": "情绪/无效反馈",
+            "核心痛点": "评价笼统，缺少具体功能、场景或问题信息",
+            "是否为有效产品反馈": false
+          },
+          "status": "completed",
+          "trace_id": "9d8d307ff4229d92f50aad0b28b72f83",
+          "generation_id": "8f8cda4d296ada7d",
+          "attempted": true,
+          "usage_details": {
+            "input": 924,
+            "output": 140,
+            "total": 1064
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_04feb8bcf8585bfa016adb013dcde087d0989694b85501d425",
+          "api_latency_seconds": 9.319772999966517,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "正向评价",
+            "产品模块": "国外版本整体体验",
+            "用户场景": "使用飞书/Lark国外版本",
+            "核心痛点": "未提出具体痛点，仅表示可能存在更好的其他产品",
+            "情绪倾向": "正向",
+            "严重程度": "低",
+            "原始评论证据": "国外版本还是不错的"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "正向评价",
+            "产品模块": "国外版本整体体验",
+            "用户场景": "使用飞书/Lark国外版本",
+            "核心痛点": "未提出具体痛点，仅表示可能存在更好的其他产品",
+            "情绪倾向": "正向",
+            "严重程度": "低",
+            "原始评论证据": "国外版本还是不错的"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "正向评价",
+            "产品模块": "国外版本整体体验",
+            "用户场景": "使用飞书/Lark国外版本",
+            "核心痛点": "未提出具体痛点，仅表示可能存在更好的其他产品",
+            "情绪倾向": "正向",
+            "严重程度": "低",
+            "原始评论证据": "国外版本还是不错的"
+          },
+          "scores": {
+            "valid_correct": 0,
+            "feedback_type_correct": 0,
+            "product_module_correct": 0,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L002",
+          "dataset_item_id": "b9b230fd-19ef-59ea-b5d1-8d75dc17e028",
+          "input": {
+            "comment": "小米手机上经常收不到消息通知，即使开了保活的通知栏，给了后台无限制电源策略，给了自启动权限，在后台任务管理界面上加锁防止被清理，但还是没有消息通知，明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新。实在不行就接上小米推送或者其他国内稳定一定的推送服务吧，明明是一个即时通讯软件，搞得得手动去查看有没有消息…",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "高",
+            "产品模块": "通知",
+            "反馈类型": "Bug",
+            "核心痛点": "安卓后台运行时经常收不到消息通知，需要手动进入App才刷新",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "261c6cf8ada75ad9a7f73e603470fa86",
+          "generation_id": "25ae29e285c11620",
+          "attempted": true,
+          "usage_details": {
+            "input": 1025,
+            "output": 198,
+            "total": 1223
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_059db4697c587775016adb0146740c87d0a73147f8f2c68918",
+          "api_latency_seconds": 8.543634500005282,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "消息通知与推送",
+            "用户场景": "在小米手机上使用飞书，已开启保活通知栏、后台无限制电源策略、自启动权限，并在后台任务管理中加锁，应用仍在运行时接收消息。",
+            "核心痛点": "完成多项后台保活设置后仍经常收不到消息通知，需要时不时进入应用主界面才触发消息更新；用户建议接入小米推送或其他国内稳定的推送服务。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "消息通知与推送",
+            "用户场景": "在小米手机上使用飞书，已开启保活通知栏、后台无限制电源策略、自启动权限，并在后台任务管理中加锁，应用仍在运行时接收消息。",
+            "核心痛点": "完成多项后台保活设置后仍经常收不到消息通知，需要时不时进入应用主界面才触发消息更新；用户建议接入小米推送或其他国内稳定的推送服务。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "消息通知与推送",
+            "用户场景": "在小米手机上使用飞书，已开启保活通知栏、后台无限制电源策略、自启动权限，并在后台任务管理中加锁，应用仍在运行时接收消息。",
+            "核心痛点": "完成多项后台保活设置后仍经常收不到消息通知，需要时不时进入应用主界面才触发消息更新；用户建议接入小米推送或其他国内稳定的推送服务。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L003",
+          "dataset_item_id": "4473dccd-6e92-5623-b22a-a3795de78b10",
+          "input": {
+            "comment": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样，基础能力不做好整天做些乱七八糟的功能，舍本逐末。市面上哪个流行的通讯APP不正常推的？",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "高",
+            "产品模块": "通知",
+            "反馈类型": "Bug",
+            "核心痛点": "安卓端消息推送失效，影响即时通讯的及时性",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "4e54884617d3e18bcc283a9ae0c611f7",
+          "generation_id": "db9e00d6dd7c529c",
+          "attempted": true,
+          "usage_details": {
+            "input": 965,
+            "output": 159,
+            "total": 1124
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_007fa67c89d6a290016adb014f6c1487d0a0a2d37081b15402",
+          "api_latency_seconds": 6.9140008999966085,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "安卓端消息推送",
+            "用户场景": "用户使用小米安卓手机、朋友使用华为安卓手机时，均收不到消息推送。",
+            "核心痛点": "安卓端消息推送失效，影响即时通讯的基础消息通知能力；用户不满基础能力未做好却持续开发其他功能。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "安卓端消息推送",
+            "用户场景": "用户使用小米安卓手机、朋友使用华为安卓手机时，均收不到消息推送。",
+            "核心痛点": "安卓端消息推送失效，影响即时通讯的基础消息通知能力；用户不满基础能力未做好却持续开发其他功能。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "安卓端消息推送",
+            "用户场景": "用户使用小米安卓手机、朋友使用华为安卓手机时，均收不到消息推送。",
+            "核心痛点": "安卓端消息推送失效，影响即时通讯的基础消息通知能力；用户不满基础能力未做好却持续开发其他功能。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L004",
+          "dataset_item_id": "82db8806-7ec6-56d9-812d-6898aaf33716",
+          "input": {
+            "comment": "登入後不明原因被登出，之後就一直收不到驗證碼",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "高",
+            "产品模块": "账号/登录/验证",
+            "反馈类型": "Bug",
+            "核心痛点": "异常退出后无法收到验证码，导致无法重新登录",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "34bae2c32e75af907bee9f50e161e289",
+          "generation_id": "e806df9b5145b7d2",
+          "attempted": true,
+          "usage_details": {
+            "input": 923,
+            "output": 130,
+            "total": 1053
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_01b87424d40cfb9c016adb015688a887d0b31e920010b9288b",
+          "api_latency_seconds": 4.807265299954452,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "登录与验证码",
+            "用户场景": "登录后不明原因被登出，再次登录时持续收不到验证码。",
+            "核心痛点": "异常登出后持续无法收到验证码，阻碍重新登录。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "登入後不明原因被登出，之後就一直收不到驗證碼"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "登录与验证码",
+            "用户场景": "登录后不明原因被登出，再次登录时持续收不到验证码。",
+            "核心痛点": "异常登出后持续无法收到验证码，阻碍重新登录。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "登入後不明原因被登出，之後就一直收不到驗證碼"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "登录与验证码",
+            "用户场景": "登录后不明原因被登出，再次登录时持续收不到验证码。",
+            "核心痛点": "异常登出后持续无法收到验证码，阻碍重新登录。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "登入後不明原因被登出，之後就一直收不到驗證碼"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L005",
+          "dataset_item_id": "0226ae1c-1001-5265-a00d-411dc6af7db6",
+          "input": {
+            "comment": "Bug問題從2023開始。文件/文章已更改內容，但未能同步更新內容；重開lark後內容也沒有改變；有時候Delete 1-2個文字，系統還把全段內容再copy多一次。身為筆記本App來說，這些都是基礎問題，且半年以上仍未改善。",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "高",
+            "产品模块": "文档/编辑",
+            "反馈类型": "Bug",
+            "核心痛点": "文档修改不同步，且删除文字时会异常复制整段内容",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "67a95a55ace306cd2a2056a3c2c15983",
+          "generation_id": "11a2fba497c973bc",
+          "attempted": true,
+          "usage_details": {
+            "input": 984,
+            "output": 207,
+            "total": 1191
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_0a1d6df26f003d2b016adb015b8ab887d0a40fe49c10f14fbc",
+          "api_latency_seconds": 5.957018499961123,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "文档/文章编辑与内容同步",
+            "用户场景": "使用飞书/Lark记录笔记、修改文档或文章内容，重启应用后查看更新，以及删除少量文字。",
+            "核心痛点": "修改后的内容未能同步更新，重启应用仍未改变；删除1至2个文字时，有时会导致整段内容重复。问题自2023年开始，持续半年以上仍未改善。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "文件/文章已更改內容，但未能同步更新內容；重開lark後內容也沒有改變；有時候Delete 1-2個文字，系統還把全段內容再copy多一次。"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "文档/文章编辑与内容同步",
+            "用户场景": "使用飞书/Lark记录笔记、修改文档或文章内容，重启应用后查看更新，以及删除少量文字。",
+            "核心痛点": "修改后的内容未能同步更新，重启应用仍未改变；删除1至2个文字时，有时会导致整段内容重复。问题自2023年开始，持续半年以上仍未改善。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "文件/文章已更改內容，但未能同步更新內容；重開lark後內容也沒有改變；有時候Delete 1-2個文字，系統還把全段內容再copy多一次。"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "文档/文章编辑与内容同步",
+            "用户场景": "使用飞书/Lark记录笔记、修改文档或文章内容，重启应用后查看更新，以及删除少量文字。",
+            "核心痛点": "修改后的内容未能同步更新，重启应用仍未改变；删除1至2个文字时，有时会导致整段内容重复。问题自2023年开始，持续半年以上仍未改善。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "文件/文章已更改內容，但未能同步更新內容；重開lark後內容也沒有改變；有時候Delete 1-2個文字，系統還把全段內容再copy多一次。"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L006",
+          "dataset_item_id": "b6e313cb-ae18-5572-bc1c-3f2679d189b9",
+          "input": {
+            "comment": "日历有bug。新建了日程安排后如果改日期的话，新设定的日期会往前倒一天。比如我把开始时间从五月8日改成五月10日，按确定后时间会是9日。月视图下那个ui也是怪怪的，不太友好",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "高",
+            "产品模块": "日历",
+            "反馈类型": "Bug",
+            "核心痛点": "修改日程日期后系统会错误地提前一天，存在日程日期错误",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "0190e1674943dad4e9ddeeae55ed5d71",
+          "generation_id": "f8d0aa0b2cd1a4e9",
+          "attempted": true,
+          "usage_details": {
+            "input": 970,
+            "output": 173,
+            "total": 1143
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_0fd162719197b08b016adb0161c10087d0bfd509e987725f66",
+          "api_latency_seconds": 6.860657299985178,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "日历：日程日期修改、月视图界面",
+            "用户场景": "新建日程后修改开始日期并确认，以及使用日历月视图。",
+            "核心痛点": "修改日程日期并确认后，实际日期比设定日期提前一天；月视图界面不够友好。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "我把开始时间从五月8日改成五月10日，按确定后时间会是9日。月视图下那个ui也是怪怪的，不太友好"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "日历：日程日期修改、月视图界面",
+            "用户场景": "新建日程后修改开始日期并确认，以及使用日历月视图。",
+            "核心痛点": "修改日程日期并确认后，实际日期比设定日期提前一天；月视图界面不够友好。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "我把开始时间从五月8日改成五月10日，按确定后时间会是9日。月视图下那个ui也是怪怪的，不太友好"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "日历：日程日期修改、月视图界面",
+            "用户场景": "新建日程后修改开始日期并确认，以及使用日历月视图。",
+            "核心痛点": "修改日程日期并确认后，实际日期比设定日期提前一天；月视图界面不够友好。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "我把开始时间从五月8日改成五月10日，按确定后时间会是9日。月视图下那个ui也是怪怪的，不太友好"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L007",
+          "dataset_item_id": "0d3edd7b-577b-5064-87c1-f402b4dbfcf5",
+          "input": {
+            "comment": "just amazing app 😃😀 loved 😻😍 left Google workspace and now enjoying it also skipped Microsoft 365 i had paid licence but still not using it just using Larc. just one problem i faced that in free version there is no email routing etc it should be for catch all etc but that disappointed me that for only that feature why i would upgrade when i have 20 users quota. hope product team will read my review and enable it. otherwise 10 ★ for this concept and easiness.",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "中",
+            "产品模块": "邮件",
+            "反馈类型": "功能建议",
+            "核心痛点": "免费版缺少邮件路由/catch-all能力，用户需要为单一能力升级",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "0106a996bbd90e1736c65d189e7cb23c",
+          "generation_id": "bd8d2ce3e5aa3010",
+          "attempted": true,
+          "usage_details": {
+            "input": 1006,
+            "output": 222,
+            "total": 1228
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_0fc496155f8616df016adb01698bc487d0ad67b61ab47b6f15",
+          "api_latency_seconds": 12.493619299959391,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "邮箱路由（Email Routing）",
+            "用户场景": "用户从 Google Workspace 转用飞书，虽持有付费 Microsoft 365 许可证也不再使用；使用免费版时，希望配置邮件路由和 Catch-all 功能。",
+            "核心痛点": "免费版缺少邮件路由及 Catch-all 功能；用户认为已有 20 人额度，不愿仅为这一功能升级，希望免费版开放。",
+            "情绪倾向": "正向",
+            "严重程度": "中",
+            "原始评论证据": "in free version there is no email routing etc it should be for catch all etc"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "邮箱路由（Email Routing）",
+            "用户场景": "用户从 Google Workspace 转用飞书，虽持有付费 Microsoft 365 许可证也不再使用；使用免费版时，希望配置邮件路由和 Catch-all 功能。",
+            "核心痛点": "免费版缺少邮件路由及 Catch-all 功能；用户认为已有 20 人额度，不愿仅为这一功能升级，希望免费版开放。",
+            "情绪倾向": "正向",
+            "严重程度": "中",
+            "原始评论证据": "in free version there is no email routing etc it should be for catch all etc"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "邮箱路由（Email Routing）",
+            "用户场景": "用户从 Google Workspace 转用飞书，虽持有付费 Microsoft 365 许可证也不再使用；使用免费版时，希望配置邮件路由和 Catch-all 功能。",
+            "核心痛点": "免费版缺少邮件路由及 Catch-all 功能；用户认为已有 20 人额度，不愿仅为这一功能升级，希望免费版开放。",
+            "情绪倾向": "正向",
+            "严重程度": "中",
+            "原始评论证据": "in free version there is no email routing etc it should be for catch all etc"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L008",
+          "dataset_item_id": "2f4069ae-f2d6-5d23-b54f-9e23724cb381",
+          "input": {
+            "comment": "The mention feature hasn't been functioning for me. I have tried to clear cache and update the app, but nothing happened. Please let us connect to tenor/ other meme vendors. update: apparently the problem with tagging and the emoji rendering is from samsung keyboard, not lark itself. I recently switched my keyboards on both tablet and phone to Google Keyboard and there hasn't been any problem.",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "低",
+            "产品模块": "聊天/消息",
+            "反馈类型": "功能建议",
+            "核心痛点": "希望接入Tenor等外部表情包服务；原@提及问题后来确认并非Lark导致",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "2432785f73313220824bd2c2ab8b9d96",
+          "generation_id": "40a5a451fbb1788e",
+          "attempted": true,
+          "usage_details": {
+            "input": 981,
+            "output": 240,
+            "total": 1221
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_0d34176b3a3d28ee016adb0175c91c87d095aac48184fb9a30",
+          "api_latency_seconds": 9.188543300027959,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "表情与动图服务接入",
+            "用户场景": "用户希望在飞书中连接 Tenor 或其他表情包服务；此前提及和表情渲染异常，后续确认与三星键盘有关，手机和平板切换至 Google Keyboard 后未再出现问题。",
+            "核心痛点": "希望支持连接 Tenor 或其他表情包服务。原先报告的提及和表情渲染问题已被用户归因于三星键盘，而非飞书本身。",
+            "情绪倾向": "中性",
+            "严重程度": "低",
+            "原始评论证据": "Please let us connect to tenor/ other meme vendors. update: apparently the problem with tagging and the emoji rendering is from samsung keyboard, not lark itself."
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "表情与动图服务接入",
+            "用户场景": "用户希望在飞书中连接 Tenor 或其他表情包服务；此前提及和表情渲染异常，后续确认与三星键盘有关，手机和平板切换至 Google Keyboard 后未再出现问题。",
+            "核心痛点": "希望支持连接 Tenor 或其他表情包服务。原先报告的提及和表情渲染问题已被用户归因于三星键盘，而非飞书本身。",
+            "情绪倾向": "中性",
+            "严重程度": "低",
+            "原始评论证据": "Please let us connect to tenor/ other meme vendors. update: apparently the problem with tagging and the emoji rendering is from samsung keyboard, not lark itself."
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "表情与动图服务接入",
+            "用户场景": "用户希望在飞书中连接 Tenor 或其他表情包服务；此前提及和表情渲染异常，后续确认与三星键盘有关，手机和平板切换至 Google Keyboard 后未再出现问题。",
+            "核心痛点": "希望支持连接 Tenor 或其他表情包服务。原先报告的提及和表情渲染问题已被用户归因于三星键盘，而非飞书本身。",
+            "情绪倾向": "中性",
+            "严重程度": "低",
+            "原始评论证据": "Please let us connect to tenor/ other meme vendors. update: apparently the problem with tagging and the emoji rendering is from samsung keyboard, not lark itself."
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L009",
+          "dataset_item_id": "e64f12c4-a7ff-57e0-89bb-da71205faff5",
+          "input": {
+            "comment": "PLEASE ENABLE OPTION TO COMPLETELY DISABLE IN-APP BROWSER AND LET US OPEN LINK DIRECTLY IN BROWSER. Lark in browser aren't allowed for Google Oauth login. And we can't always copy the link manually and paste in browser. for example, links opened through bot button. It's freaking annoying since day one using Lark.",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "中",
+            "产品模块": "浏览器/外链",
+            "反馈类型": "功能建议",
+            "核心痛点": "缺少关闭内置浏览器并直接用系统浏览器打开链接的选项",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "00729c96a386437bd1ccd27712cc64a8",
+          "generation_id": "e792949d8c70ab2b",
+          "attempted": true,
+          "usage_details": {
+            "input": 974,
+            "output": 190,
+            "total": 1164
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_005d5c6d9495afbb016adb017f5de087d093b8a387b2e1435b",
+          "api_latency_seconds": 8.67460129992105,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "应用内浏览器与链接打开方式",
+            "用户场景": "在 Lark 中打开需要 Google OAuth 登录的链接，包括通过机器人按钮打开的链接。",
+            "核心痛点": "应用内浏览器无法进行 Google OAuth 登录，且无法总是手动复制链接到外部浏览器；用户希望提供彻底禁用应用内浏览器、直接使用外部浏览器打开链接的选项。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "PLEASE ENABLE OPTION TO COMPLETELY DISABLE IN-APP BROWSER AND LET US OPEN LINK DIRECTLY IN BROWSER. Lark in browser aren't allowed for Google Oauth login."
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "应用内浏览器与链接打开方式",
+            "用户场景": "在 Lark 中打开需要 Google OAuth 登录的链接，包括通过机器人按钮打开的链接。",
+            "核心痛点": "应用内浏览器无法进行 Google OAuth 登录，且无法总是手动复制链接到外部浏览器；用户希望提供彻底禁用应用内浏览器、直接使用外部浏览器打开链接的选项。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "PLEASE ENABLE OPTION TO COMPLETELY DISABLE IN-APP BROWSER AND LET US OPEN LINK DIRECTLY IN BROWSER. Lark in browser aren't allowed for Google Oauth login."
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "应用内浏览器与链接打开方式",
+            "用户场景": "在 Lark 中打开需要 Google OAuth 登录的链接，包括通过机器人按钮打开的链接。",
+            "核心痛点": "应用内浏览器无法进行 Google OAuth 登录，且无法总是手动复制链接到外部浏览器；用户希望提供彻底禁用应用内浏览器、直接使用外部浏览器打开链接的选项。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "PLEASE ENABLE OPTION TO COMPLETELY DISABLE IN-APP BROWSER AND LET US OPEN LINK DIRECTLY IN BROWSER. Lark in browser aren't allowed for Google Oauth login."
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 0,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L010",
+          "dataset_item_id": "f0a2f75d-d1a8-54d4-b607-769a6849d7b8",
+          "input": {
+            "comment": "もう、半年以上使ってますが、通知がきません。もしくはすぐ消えます。スマホの設定、アプリの設定色々いじってもダメです。仕事で使っているので非常に困っています。",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "高",
+            "产品模块": "通知",
+            "反馈类型": "Bug",
+            "核心痛点": "通知长期不出现或很快消失，影响工作消息接收",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "143cbe0ac95b3d18323e37f1f7a24d2e",
+          "generation_id": "040a0e5c49e8c15a",
+          "attempted": true,
+          "usage_details": {
+            "input": 958,
+            "output": 142,
+            "total": 1100
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_010732a4d0e35446016adb018887e487d0b7e3e5271d142eef",
+          "api_latency_seconds": 7.224577200016938,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "消息通知",
+            "用户场景": "使用飞书超过半年，在工作中通过手机接收通知，已尝试调整手机和应用设置。",
+            "核心痛点": "通知无法收到，或出现后立即消失，调整手机及应用设置仍无法解决，严重影响工作使用。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "通知がきません。もしくはすぐ消えます。"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "消息通知",
+            "用户场景": "使用飞书超过半年，在工作中通过手机接收通知，已尝试调整手机和应用设置。",
+            "核心痛点": "通知无法收到，或出现后立即消失，调整手机及应用设置仍无法解决，严重影响工作使用。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "通知がきません。もしくはすぐ消えます。"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "Bug",
+            "产品模块": "消息通知",
+            "用户场景": "使用飞书超过半年，在工作中通过手机接收通知，已尝试调整手机和应用设置。",
+            "核心痛点": "通知无法收到，或出现后立即消失，调整手机及应用设置仍无法解决，严重影响工作使用。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "通知がきません。もしくはすぐ消えます。"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L011",
+          "dataset_item_id": "9f4304df-a305-5e93-ba1c-54dd8aad5109",
+          "input": {
+            "comment": "やはりいきなり有料化されることが発表された。無料枠はネット会議時間が短すぎるので、実質的に有料会員にならざるをえない。それまでには、チャンと日本語対応、日本の祭日表示、ヘルプの日本語化をやってほしい。",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "中",
+            "产品模块": "国际化/翻译",
+            "反馈类型": "功能建议",
+            "核心痛点": "日语支持、日本节假日显示和日文帮助文档不完善",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "d223ee1565952cf46ff98d6bc23a3545",
+          "generation_id": "2222c1ec8bbf7306",
+          "attempted": true,
+          "usage_details": {
+            "input": 982,
+            "output": 227,
+            "total": 1209
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_0fccf43be8239123016adb018fed0887d0a69a8b6d92734e85",
+          "api_latency_seconds": 7.7586530999979,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "付费与免费额度、日语本地化、日历节假日、帮助文档",
+            "用户场景": "用户使用免费版进行在线会议，在宣布收费后，希望付费前完善日语支持、日本节假日显示及日语帮助文档。",
+            "核心痛点": "免费版在线会议时长过短，用户认为实际上不得不付费；同时要求完善日语适配、日本节假日显示和帮助文档日语化。",
+            "情绪倾向": "负向",
+            "严重程度": "中",
+            "原始评论证据": "無料枠はネット会議時間が短すぎるので、実質的に有料会員にならざるをえない。それまでには、チャンと日本語対応、日本の祭日表示、ヘルプの日本語化をやってほしい。"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "付费与免费额度、日语本地化、日历节假日、帮助文档",
+            "用户场景": "用户使用免费版进行在线会议，在宣布收费后，希望付费前完善日语支持、日本节假日显示及日语帮助文档。",
+            "核心痛点": "免费版在线会议时长过短，用户认为实际上不得不付费；同时要求完善日语适配、日本节假日显示和帮助文档日语化。",
+            "情绪倾向": "负向",
+            "严重程度": "中",
+            "原始评论证据": "無料枠はネット会議時間が短すぎるので、実質的に有料会員にならざるをえない。それまでには、チャンと日本語対応、日本の祭日表示、ヘルプの日本語化をやってほしい。"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "功能建议",
+            "产品模块": "付费与免费额度、日语本地化、日历节假日、帮助文档",
+            "用户场景": "用户使用免费版进行在线会议，在宣布收费后，希望付费前完善日语支持、日本节假日显示及日语帮助文档。",
+            "核心痛点": "免费版在线会议时长过短，用户认为实际上不得不付费；同时要求完善日语适配、日本节假日显示和帮助文档日语化。",
+            "情绪倾向": "负向",
+            "严重程度": "中",
+            "原始评论证据": "無料枠はネット会議時間が短すぎるので、実質的に有料会員にならざるをえない。それまでには、チャンと日本語対応、日本の祭日表示、ヘルプの日本語化をやってほしい。"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L012",
+          "dataset_item_id": "ab17df40-307f-566c-9c12-dda44577ec17",
+          "input": {
+            "comment": "異常認証という謎の通知のあとに身分証認証を求められました。パスワード、SMS、メールすべてのやり方でログインを試みましたが全滅です。認証も日本人ではできないようです。早急に解決してほしいです。",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "高",
+            "产品模块": "账号/登录/验证",
+            "反馈类型": "Bug",
+            "核心痛点": "身份认证流程对日本用户不可用，多种登录方式均失败",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "ea5bc85eb5b1851a1ed328c97407fc57",
+          "generation_id": "3b59b46cbc7f9fcc",
+          "attempted": true,
+          "usage_details": {
+            "input": 978,
+            "output": 224,
+            "total": 1202
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_03164ec069bb25ee016adb01981c8487d0a72654c02ea67389",
+          "api_latency_seconds": 9.814694300061092,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "使用困难",
+            "产品模块": "登录与身份认证",
+            "用户场景": "用户收到“异常认证”通知后被要求进行身份证件认证，随后尝试使用密码、短信和邮箱方式登录，均未成功。",
+            "核心痛点": "所有已尝试的登录方式均失败，且用户表示身份认证似乎不支持日本人，导致无法登录，希望尽快解决。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "パスワード、SMS、メールすべてのやり方でログインを試みましたが全滅です。認証も日本人ではできないようです。"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "使用困难",
+            "产品模块": "登录与身份认证",
+            "用户场景": "用户收到“异常认证”通知后被要求进行身份证件认证，随后尝试使用密码、短信和邮箱方式登录，均未成功。",
+            "核心痛点": "所有已尝试的登录方式均失败，且用户表示身份认证似乎不支持日本人，导致无法登录，希望尽快解决。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "パスワード、SMS、メールすべてのやり方でログインを試みましたが全滅です。認証も日本人ではできないようです。"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "使用困难",
+            "产品模块": "登录与身份认证",
+            "用户场景": "用户收到“异常认证”通知后被要求进行身份证件认证，随后尝试使用密码、短信和邮箱方式登录，均未成功。",
+            "核心痛点": "所有已尝试的登录方式均失败，且用户表示身份认证似乎不支持日本人，导致无法登录，希望尽快解决。",
+            "情绪倾向": "负向",
+            "严重程度": "高",
+            "原始评论证据": "パスワード、SMS、メールすべてのやり方でログインを試みましたが全滅です。認証も日本人ではできないようです。"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 0,
+            "product_module_correct": 0,
+            "severity_correct": 1,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L013",
+          "dataset_item_id": "57f9428f-4089-55f5-b7e6-4d35917125e9",
+          "input": {
+            "comment": "ใช้งานได้ดีค่ะมีตัวแปลภาษาได้ดีกว่าค่ะ",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "不适用",
+            "产品模块": "国际化/翻译",
+            "反馈类型": "正向评价",
+            "核心痛点": "用户明确认可翻译功能的可用性",
+            "是否为有效产品反馈": true
+          },
+          "status": "completed",
+          "trace_id": "6d4cb312db7fc435a6eee60ec4728103",
+          "generation_id": "8e4484a11018f1d6",
+          "attempted": true,
+          "usage_details": {
+            "input": 923,
+            "output": 183,
+            "total": 1106
+          },
+          "usage_source": "model_api_response",
+          "response_id": "resp_08763029e57757f8016adb01a2ffac87d088ef84e3c6d60fe2",
+          "api_latency_seconds": 8.095845999894664,
+          "raw_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "正向评价",
+            "产品模块": "语言翻译",
+            "用户场景": "使用飞书及其语言翻译功能",
+            "核心痛点": "未提及痛点，用户认可使用体验和语言翻译功能",
+            "情绪倾向": "正向",
+            "严重程度": "低",
+            "原始评论证据": "ใช้งานได้ดีค่ะมีตัวแปลภาษาได้ดีกว่าค่ะ"
+          },
+          "normalized_output": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "正向评价",
+            "产品模块": "语言翻译",
+            "用户场景": "使用飞书及其语言翻译功能",
+            "核心痛点": "未提及痛点，用户认可使用体验和语言翻译功能",
+            "情绪倾向": "正向",
+            "严重程度": "低",
+            "原始评论证据": "ใช้งานได้ดีค่ะมีตัวแปลภาษาได้ดีกว่าค่ะ"
+          },
+          "score_input": {
+            "是否为有效产品反馈": true,
+            "反馈类型": "正向评价",
+            "产品模块": "语言翻译",
+            "用户场景": "使用飞书及其语言翻译功能",
+            "核心痛点": "未提及痛点，用户认可使用体验和语言翻译功能",
+            "情绪倾向": "正向",
+            "严重程度": "低",
+            "原始评论证据": "ใช้งานได้ดีค่ะมีตัวแปลภาษาได้ดีกว่าค่ะ"
+          },
+          "scores": {
+            "valid_correct": 1,
+            "feedback_type_correct": 1,
+            "product_module_correct": 0,
+            "all_fields_correct": 0
+          }
+        },
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final-r2",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L014",
+          "dataset_item_id": "1ca06786-95b7-591a-9a13-baf400bcba36",
+          "input": {
+            "comment": "ใช้งานง่าย สะดวก รวดเร็ว แต่มีขอเสีย เสิร์ชหาข้อมูลจากข้อความเก่าๆ ในแชทไม่ค่อยเจอ 😂😂😁😁 พัฒนาต่อไปนะค่ะ",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "中",
+            "产品模块": "搜索",
+            "反馈类型": "使用困难",
+            "核心痛点": "难以从历史聊天消息中搜索到需要的信息",
+            "是否为有效产品反馈": true
+          },
+          "status": "failed",
+          "trace_id": "ef17d0c8d6e37f6783d424f0154dfe8b",
+          "generation_id": "2f250795730b113b",
+          "attempted": true,
+          "api_error_type": "APITimeoutError",
+          "api_latency_seconds": 20.010126799927093,
+          "error_type": "RuntimeError"
+        }
+      ],
+      "status": "failed",
+      "experiment_id": "821c93c0-eede-4a6d-82df-e1c3b5b53165"
+    }
+  ],
+  "status": "failed"
+}

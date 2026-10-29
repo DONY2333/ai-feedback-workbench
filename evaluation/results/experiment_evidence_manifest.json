@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "purpose": "Phase D offline evidence integrity; not a new model evaluation",
+  "files": [
+    {
+      "path": "evaluation/gold_set_82.xlsx",
+      "sha256": "8f0704a908259b846a0b811097b4ff9cec3e6869b3bda27cfd8ebdcbb6a894a1"
+    },
+    {
+      "path": "evaluation/prompts/prompt_v1_baseline.md",
+      "sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2"
+    },
+    {
+      "path": "evaluation/prompts/prompt_v2.md",
+      "sha256": "07640a3a31ff20a432f4fa70909789f5779dda5b7581b17305f3dac2470bd6f5"
+    },
+    {
+      "path": "evaluation/prompts/prompt_v3.md",
+      "sha256": "1989ffe4535fd615c43cb56eeed5ea84eb70a59294a2ac55fa565e0718d2b7e5"
+    },
+    {
+      "path": "evaluation/results/v1_baseline/evaluation_detail.xlsx",
+      "sha256": "9a877794a9f6e271b0480842854b2cd2b17cc009e02d8282c1510929ffca5302"
+    },
+    {
+      "path": "evaluation/results/v1_baseline/evaluation_summary.csv",
+      "sha256": "99036576eae2db60625cdc77cd82c3d31a84b10d7c15e357916acb310eaee637"
+    },
+    {
+      "path": "evaluation/results/v2/evaluation_detail.xlsx",
+      "sha256": "9ca39daac15608f7223a57ed00a211494aa96ca6c75b50cf23823fad9b180a31"
+    },
+    {
+      "path": "evaluation/results/v2/evaluation_summary.csv",
+      "sha256": "6c2cd3267fdc10ea5076f89082e7c1199a4aced8106ea59a27586621aa19bcad"
+    },
+    {
+      "path": "evaluation/results/v3/evaluation_detail.xlsx",
+      "sha256": "f70a2fcf77dd747dbd651f9fc18f4ffb28f78586ddf5dc896c2817bfb4facf54"
+    },
+    {
+      "path": "evaluation/results/v3/evaluation_summary.csv",
+      "sha256": "4a1bf5bec638586cc3a585ee7d107a85b6956fc26951348f29a00d32c450171e"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/evaluation_detail.xlsx",
+      "sha256": "bc01dcebe9693153cb25f4230bd99e0df7c25c0b99857c06f1664ec48f1463b3"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/evaluation_summary.csv",
+      "sha256": "09036ab518f0ebeb4792e7fe7d13c8645a23acf09fd970b5a25ef17222155903"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/analysis/metrics_overall.csv",
+      "sha256": "82b0c5d6af5761aa61c284bdefae9bf68072608e3a0dda332c0820182344ebdb"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/analysis/metrics_feedback_type.csv",
+      "sha256": "941c0d1b4a773876c98243dd7cd15f99a4c9b01a63ab94618706d9b8fc2d9043"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/analysis/metrics_product_module.csv",
+      "sha256": "3d962b1c25e6fee4eaea64a2a152bac40f990dbc156b95a17e84d5aece1fb6c7"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/analysis/metrics_severity.csv",
+      "sha256": "f26cadd3b3fb2d30f609dcfcc8f176804ef60111c875fb8217acf63e64b306f5"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/analysis/all_fields_correct.csv",
+      "sha256": "d5a13513b5e0745d9e3ed4cd9e4bc6279320a1023f152acc995a9a08c31d675f"
+    },
+    {
+      "path": "evaluation/results/v3_holdout/analysis/error_patterns.csv",
+      "sha256": "c292a5282ed91f6414868d34febb0f651fafa6224642413d296e631296896583"
+    },
+    {
+      "path": "evaluation/results/langfuse_phase_c1/replay_report.json",
+      "sha256": "592b588b625d3113984a619e17a7c1b4af9482e43466e389fba68eff313ededd"
+    },
+    {
+      "path": "evaluation/results/langfuse_phase_c2/r3/receipt.json",
+      "sha256": "af624dfb579c06a80913ae834c61aac771ef559ce87181d7053e7ee803234aaf"
+    },
+    {
+      "path": "evaluation/results/langfuse_phase_c2/r3/execution_report.md",
+      "sha256": "9851ff8215bb08727841a9479fb989f6c7bf165abd047aea82e35b657bf404e7"
+    }
+  ],
+  "publication": {
+    "type": "identity-redacted public copy",
+    "original_gold_sha256": "a55d39e703694f9e5606d721fb34668b909e6b9c9f8f0c776a96025960b4bd28",
+    "public_gold_sha256": "8f0704a908259b846a0b811097b4ff9cec3e6869b3bda27cfd8ebdcbb6a894a1",
+    "changes": "用户名 cell contents removed; IDs, comments, Gold labels and predictions unchanged. All other listed evidence files retain their original hashes."
+  }
+}

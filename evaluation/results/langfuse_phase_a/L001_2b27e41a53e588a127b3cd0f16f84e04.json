@@ -1,0 +1,43 @@
+{
+  "gold_id": "L001",
+  "product": "飞书/Lark",
+  "prompt_version": "v3",
+  "evaluation_source": "gold_set_82",
+  "model": "gpt-6.1-sol",
+  "max_retries": 0,
+  "timeout_seconds": 20.0,
+  "trace_id": "2b27e41a53e588a127b3cd0f16f84e04",
+  "generation_id": "d52bdfeec4267b4f",
+  "prediction": {
+    "是否为有效产品反馈": false,
+    "反馈类型": "情绪/无效反馈",
+    "产品模块": "其他",
+    "用户场景": "未识别",
+    "核心痛点": "未识别",
+    "情绪倾向": "正向",
+    "严重程度": "不适用",
+    "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+  },
+  "scores": {
+    "valid_correct": 1,
+    "feedback_type_correct": 1,
+    "product_module_correct": 1,
+    "all_fields_correct": 1
+  },
+  "analysis_source": "api",
+  "model_calls": 1,
+  "severity_applicable": false,
+  "local_evaluation_consistent": true,
+  "trace_url": "https://jp.cloud.langfuse.com/project/cmv4zk0og004had0kgrb50ihv/traces/2b27e41a53e588a127b3cd0f16f84e04",
+  "langfuse_status": "verified via observations v2 and scores v3",
+  "verification": {
+    "generation_verified": true,
+    "output_matches_receipt": true,
+    "metadata_verified": true,
+    "scores_verified": true,
+    "score_count": 4,
+    "all_scores_attached_to_generation": true,
+    "model_requests_during_verification": 0,
+    "historical_v3_L001_scores_match": true
+  }
+}

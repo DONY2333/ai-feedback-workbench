@@ -1,0 +1,3 @@
+﻿label,precision,recall,f1,support,predicted_support,status
+False,1.0,0.9230769230769231,0.96,13,12,已覆盖
+True,0.98,1.0,0.98989898989899,49,50,已覆盖

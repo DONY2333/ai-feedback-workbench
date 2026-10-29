@@ -1,0 +1,187 @@
+{
+  "phase": "C2",
+  "dataset": "feedback-dev-20",
+  "dataset_id": "cmvhmdekm003jad0jj2g3ywm6",
+  "started_at": "2026-10-23T06:30:33.370766+00:00",
+  "model_api_calls": 1,
+  "model": "gpt-6.1-sol",
+  "max_retries": 0,
+  "timeout_seconds": 20.0,
+  "historical_replay": {
+    "v1": {
+      "prompt_version": "v1",
+      "normalization_version": "v1-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 1,
+          "accuracy": 0.05
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 12,
+          "accuracy": 0.6666666666666666
+        }
+      ]
+    },
+    "v2": {
+      "prompt_version": "v2",
+      "normalization_version": "v2-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 16,
+          "accuracy": 0.8
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 12,
+          "accuracy": 0.6666666666666666
+        }
+      ]
+    },
+    "v3": {
+      "prompt_version": "v3",
+      "normalization_version": "v3-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 20,
+          "accuracy": 1.0
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 14,
+          "accuracy": 0.7777777777777778
+        }
+      ]
+    }
+  },
+  "runs": [
+    {
+      "prompt_version": "v1",
+      "normalization_version": "v1-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+      "score_input_source": "normalized_output",
+      "experiment": "feedback-dev-v1-final",
+      "model": "gpt-6.1-sol",
+      "dataset": "feedback-dev-20",
+      "split": "dev",
+      "evaluation_source": "gold_set_82",
+      "phase": "C2",
+      "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+      "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+      "max_retries": 0,
+      "timeout_seconds": 20.0,
+      "records": [
+        {
+          "prompt_version": "v1",
+          "normalization_version": "v1-known-rules-1",
+          "scoring_version": "historical-exact-match-v1",
+          "normalization_reproduction": "partial",
+          "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+          "score_input_source": "normalized_output",
+          "experiment": "feedback-dev-v1-final",
+          "model": "gpt-6.1-sol",
+          "dataset": "feedback-dev-20",
+          "split": "dev",
+          "evaluation_source": "gold_set_82",
+          "phase": "C2",
+          "prompt_source": "evaluation\\prompts\\prompt_v1_baseline.md",
+          "prompt_sha256": "a1d57db15f450b0138e196c140e24b428ea10067950741bcef7e4f86f645b0c2",
+          "max_retries": 0,
+          "timeout_seconds": 20.0,
+          "gold_id": "L001",
+          "dataset_item_id": "a372834b-c27e-5855-ae9b-f73f451b8e77",
+          "input": {
+            "comment": "使用记录来看 国外版本还是不错的 但是或许还有其他跟更好点",
+            "product": "飞书/Lark"
+          },
+          "expected_output": {
+            "严重程度": "不适用",
+            "产品模块": "其他",
+            "反馈类型": "情绪/无效反馈",
+            "核心痛点": "评价笼统，缺少具体功能、场景或问题信息",
+            "是否为有效产品反馈": false
+          },
+          "status": "failed",
+          "trace_id": "b906cd16c88036ad9ba63d09e11030dc",
+          "generation_id": "8c22413c893a9257",
+          "attempted": true,
+          "api_error_type": "AuthenticationError",
+          "http_status": 401,
+          "api_latency_seconds": 1.3111336000729352,
+          "error_type": "RuntimeError"
+        }
+      ],
+      "status": "started",
+      "experiment_id": "71ec17ce3e2df9d0"
+    }
+  ],
+  "status": "failed"
+}

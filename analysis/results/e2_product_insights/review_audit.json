@@ -1,0 +1,1118 @@
+{
+  "source_directory": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\analysis\\results\\e1_offline",
+  "source_sha256": {
+    "issue_clusters.json": "99874f36cbc0472600f4d133f61e23d8ff855ef46eec80169715d41f397e1f44",
+    "issue_clusters.csv": "991589a6bca3e541031669ad8dbb28fa42266b3c846e8b367dfd43f285338823",
+    "feedback_mapping.csv": "db40fd65c33e22616c45486e0fd407ba312450d5d6814dcdb2c82ad1e5e7a915",
+    "summary.csv": "4e1dbad435da2a48379f98e64a103a7a9d90a72df2f39b9f1b5f182f6ebba042",
+    "review.json": "16d5276e29280e26905d7258ce5db1309ed723546166cf6aa00ad44637e8031f"
+  },
+  "model_api_calls": 0,
+  "review_method": "assistant_offline_evidence_check_not_human_signoff",
+  "issue_review": [
+    {
+      "issue_id": "ISS-d24e66adca12",
+      "evidence_ids": [
+        "W013"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-ab72710c8df7",
+      "evidence_ids": [
+        "W024",
+        "W027",
+        "W030"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "evidence_checked_by_assistant",
+      "review_note": "核对 W024/W027/W030 原文，标题涵盖切换及生效问题；不与 W022 翻译覆盖不足混为同一问题。"
+    },
+    {
+      "issue_id": "ISS-5334fcf32d8f",
+      "evidence_ids": [
+        "W022"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-6b4345525155",
+      "evidence_ids": [
+        "W003",
+        "W006",
+        "W007"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "evidence_checked_by_assistant",
+      "review_note": "核对 W003/W006/W007 原文；按附加资源下载任务归并，区分循环、失败和重装恢复差异；不扩大到其他更新问题。"
+    },
+    {
+      "issue_id": "ISS-e2fd11b15a0a",
+      "evidence_ids": [
+        "W023"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-46a0ec1fda2e",
+      "evidence_ids": [
+        "W017"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-517b5e9f5977",
+      "evidence_ids": [
+        "W005"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-c1496876336d",
+      "evidence_ids": [
+        "W039"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-1d03311fcf65",
+      "evidence_ids": [
+        "W034"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-3d451f99e867",
+      "evidence_ids": [
+        "W016"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-db081d568173",
+      "evidence_ids": [
+        "W012"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-9fd4e3b83181",
+      "evidence_ids": [
+        "W010"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-ff149ccff3aa",
+      "evidence_ids": [
+        "W029"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-681b00680ef3",
+      "evidence_ids": [
+        "W004"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-079b88442a5c",
+      "evidence_ids": [
+        "W011"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-f52b84759416",
+      "evidence_ids": [
+        "W009"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-b71e6b21b33a",
+      "evidence_ids": [
+        "W019"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-568ec73ccc90",
+      "evidence_ids": [
+        "W015"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "evidence_checked_by_assistant",
+      "review_note": "逐句核对 W015 越南语原文与已保存痛点；仅 1 条原始评论，不能提供或虚构 2–3 条独立证据。"
+    },
+    {
+      "issue_id": "ISS-e38efba239d3",
+      "evidence_ids": [
+        "W001"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-b2b2d4f47962",
+      "evidence_ids": [
+        "W020"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-ad4d08824d91",
+      "evidence_ids": [
+        "W036"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-60fd2c14126f",
+      "evidence_ids": [
+        "W035"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-c89f9f1a604a",
+      "evidence_ids": [
+        "W002"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-d5f85d2ed988",
+      "evidence_ids": [
+        "W033"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-31e97b3eccb3",
+      "evidence_ids": [
+        "W021"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-ff49af320a20",
+      "evidence_ids": [
+        "W008"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-d0708c75acf2",
+      "evidence_ids": [
+        "W028"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-b533116a5435",
+      "evidence_ids": [
+        "W038"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-baac825df79f",
+      "evidence_ids": [
+        "L027"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-5f72dc50f620",
+      "evidence_ids": [
+        "L011"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-dba1780bcdf1",
+      "evidence_ids": [
+        "L022"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-6bb421c63121",
+      "evidence_ids": [
+        "L032"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-9b281bd1143e",
+      "evidence_ids": [
+        "L034"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-89bb73e00091",
+      "evidence_ids": [
+        "L019"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-58f66da193f5",
+      "evidence_ids": [
+        "L036"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-ff6a31476cf0",
+      "evidence_ids": [
+        "L037"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-7c1b6e57b3dd",
+      "evidence_ids": [
+        "L018"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-b6ff08144dfa",
+      "evidence_ids": [
+        "L014"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-9391a9f3334f",
+      "evidence_ids": [
+        "L026"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-201a6d766256",
+      "evidence_ids": [
+        "L005"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-9dd461e59873",
+      "evidence_ids": [
+        "L025"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-df3e1bab57a0",
+      "evidence_ids": [
+        "L006"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-14aa7bb20e8f",
+      "evidence_ids": [
+        "L009"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-a04d3766d3cf",
+      "evidence_ids": [
+        "L031"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-2aa0b6e3c578",
+      "evidence_ids": [
+        "L008"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-410b68841037",
+      "evidence_ids": [
+        "L035"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-5775e076c278",
+      "evidence_ids": [
+        "L020"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-138b4f4a6e20",
+      "evidence_ids": [
+        "L004",
+        "L028"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "evidence_checked_by_assistant",
+      "review_note": "核对 L004/L028 原文，标题同时覆盖登录和注册；L017 为相似独立 Issue，仅作背景，不加入本簇计数。"
+    },
+    {
+      "issue_id": "ISS-354a717f42b9",
+      "evidence_ids": [
+        "L012"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-c91499babaff",
+      "evidence_ids": [
+        "L021"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-d51ee0010cdb",
+      "evidence_ids": [
+        "L017"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-161bdf04491c",
+      "evidence_ids": [
+        "L015"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "screened_only",
+      "review_note": "未做完整逐条证据签核"
+    },
+    {
+      "issue_id": "ISS-3955d4f6ed9d",
+      "evidence_ids": [
+        "L002",
+        "L003",
+        "L010",
+        "L016",
+        "L038"
+      ],
+      "screened": true,
+      "source_review_status": "needs_review",
+      "e2_review_status": "evidence_checked_by_assistant",
+      "review_note": "逐条核对 L002/L003/L010/L016/L038；排除 L015 音量问题；保留送达与展示子症状，不推断根因。"
+    },
+    {
+      "issue_id": "ISS-e87ee6cccedb",
+      "evidence_ids": [
+        "L007"
+      ],
+      "screened": false,
+      "source_review_status": "needs_review",
+      "e2_review_status": "needs_review",
+      "review_note": "未做完整逐条证据签核"
+    }
+  ],
+  "top_issue_cards": [
+    {
+      "issue_id": "ISS-3955d4f6ed9d",
+      "product": "飞书/Lark",
+      "issue_title": "消息通知未送达或通知栏显示异常",
+      "product_module": "通知",
+      "issue_summary": "5 条评论反映消息通知未到达、很快消失或未显示在通知栏；其中部分用户明确提到安卓设备、后台设置或手动进入应用才更新。",
+      "evidence_count": 5,
+      "evidence_ids": [
+        "L002",
+        "L003",
+        "L010",
+        "L016",
+        "L038"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L002",
+          "comment": "小米手机上经常收不到消息通知，即使开了保活的通知栏，给了后台无限制电源策略，给了自启动权限，在后台任务管理界面上加锁防止被清理，但还是没有消息通知，明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新。实在不行就接上小米推送或者其他国内稳定一定的推送服务吧，明明是一个即时通讯软件，搞得得手动去查看有没有消息…"
+        },
+        {
+          "feedback_id": "L003",
+          "comment": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样，基础能力不做好整天做些乱七八糟的功能，舍本逐末。市面上哪个流行的通讯APP不正常推的？"
+        },
+        {
+          "feedback_id": "L010",
+          "comment": "もう、半年以上使ってますが、通知がきません。もしくはすぐ消えます。スマホの設定、アプリの設定色々いじってもダメです。仕事で使っているので非常に困っています。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 5
+      },
+      "severity_distribution": {
+        "高": 4,
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "开启多项后台保活设置后仍经常收不到消息通知，需手动进入主界面才能触发消息更新，影响消息及时获取。",
+        "安卓手机收不到消息推送，即时通讯的基础提醒能力失效",
+        "通知不送达或很快消失，调整手机及应用设置后仍未解决，影响工作使用。",
+        "收不到任何消息通知",
+        "通知接收异常，部分通知未出现在通知栏。"
+      ],
+      "review_status": "evidence_checked_by_assistant",
+      "review_note": "逐条核对 L002/L003/L010/L016/L038；排除 L015 音量问题；保留送达与展示子症状，不推断根因。",
+      "merge_basis": "anchor",
+      "rank": 1,
+      "problem": "用户在等待消息、后台使用或查看通知栏时，无法可靠获知新消息。L002 明确描述需要进入主界面触发更新，L010 明确提到工作使用受影响。不同送达与展示症状按通知任务归并，不认定具有同一根因，也不把全部成员都限定为后台故障。",
+      "priority": "高",
+      "priority_reason": "多成员中重复最多；高严重程度 4/5，涉及消息及时获取这一核心场景。另一产品也有通知送达反馈，不构成独有问题。",
+      "competitor_summary": "在当前样本中，企业微信 W008、W021 同样报告通知收不到（2 条）；飞书该 Issue 为 5 条。飞书通知模块另有音量反馈，共 6/31；企业微信通知模块为 2/32。不能将样本差异解释为实际送达率差异。",
+      "competitor_evidence_ids": [
+        "W008",
+        "W021"
+      ],
+      "proposed_solution": [
+        "产品方案建议：按消息生成、推送、设备接收、通知展示拆分排查送达链路，先复现已有设备与省电场景。",
+        "产品方案建议：提供可理解的通知诊断与状态提示，避免仅让用户重复修改系统设置。"
+      ],
+      "validation_metrics": [
+        "分设备/后台状态的消息通知送达率",
+        "通知端到端延迟分位数",
+        "通知相关负反馈占问题反馈比例"
+      ],
+      "evidence": [
+        {
+          "feedback_id": "L002",
+          "product": "飞书/Lark",
+          "comment": "小米手机上经常收不到消息通知，即使开了保活的通知栏，给了后台无限制电源策略，给了自启动权限，在后台任务管理界面上加锁防止被清理，但还是没有消息通知，明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新。实在不行就接上小米推送或者其他国内稳定一定的推送服务吧，明明是一个即时通讯软件，搞得得手动去查看有没有消息…",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "通知",
+          "core_user_pain": "开启多项后台保活设置后仍经常收不到消息通知，需手动进入主界面才能触发消息更新，影响消息及时获取。",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+          "source_run": "v3",
+          "original_excel_row": "3",
+          "eligible": true,
+          "issue_id": "ISS-3955d4f6ed9d",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "L003",
+          "product": "飞书/Lark",
+          "comment": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样，基础能力不做好整天做些乱七八糟的功能，舍本逐末。市面上哪个流行的通讯APP不正常推的？",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "通知",
+          "core_user_pain": "安卓手机收不到消息推送，即时通讯的基础提醒能力失效",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+          "source_run": "v3",
+          "original_excel_row": "4",
+          "eligible": true,
+          "issue_id": "ISS-3955d4f6ed9d",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "L010",
+          "product": "飞书/Lark",
+          "comment": "もう、半年以上使ってますが、通知がきません。もしくはすぐ消えます。スマホの設定、アプリの設定色々いじってもダメです。仕事で使っているので非常に困っています。",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "通知",
+          "core_user_pain": "通知不送达或很快消失，调整手机及应用设置后仍未解决，影响工作使用。",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+          "source_run": "v3",
+          "original_excel_row": "11",
+          "eligible": true,
+          "issue_id": "ISS-3955d4f6ed9d",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "L016",
+          "product": "飞书/Lark",
+          "comment": "không có 1 thông báo từ tin nhắn",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "通知",
+          "core_user_pain": "收不到任何消息通知",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+          "source_run": "v3",
+          "original_excel_row": "17",
+          "eligible": true,
+          "issue_id": "ISS-3955d4f6ed9d",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "L038",
+          "product": "飞书/Lark",
+          "comment": "После обновления начали очень странно приходить уведомления в шторку. Не все приходят. При этом энергосбережение выключено",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "通知",
+          "core_user_pain": "通知接收异常，部分通知未出现在通知栏。",
+          "severity": "中",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "39",
+          "eligible": true,
+          "issue_id": "ISS-3955d4f6ed9d",
+          "exclusion_reason": ""
+        }
+      ]
+    },
+    {
+      "issue_id": "ISS-138b4f4a6e20",
+      "product": "飞书/Lark",
+      "issue_title": "登录或注册验证码未送达",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "L004 被登出后收不到验证码；L028 注册时收不到验证码，明确提及邮箱和手机号渠道。",
+      "evidence_count": 2,
+      "evidence_ids": [
+        "L004",
+        "L028"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L004",
+          "comment": "登入後不明原因被登出，之後就一直收不到驗證碼"
+        },
+        {
+          "feedback_id": "L028",
+          "comment": "Não consigo registrar nem por e-mail e nem por telefone. O app não envia o código de verificação."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 2
+      },
+      "severity_distribution": {
+        "高": 2
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "不明原因被登出，之后持续收不到验证码，无法重新登录",
+        "应用不发送验证码，导致邮箱和手机号两种方式均无法完成注册"
+      ],
+      "review_status": "evidence_checked_by_assistant",
+      "review_note": "核对 L004/L028 原文，标题同时覆盖登录和注册；L017 为相似独立 Issue，仅作背景，不加入本簇计数。",
+      "merge_basis": "anchor",
+      "rank": 2,
+      "problem": "用户在恢复登录或注册时无法取得验证码，账号进入流程受阻。两条证据都指向验证码获取这一任务；不据此判断短信或邮件服务的具体故障原因。",
+      "priority": "高",
+      "priority_reason": "重复 2 条且高严重程度 2/2，直接阻断账号进入。虽然证据少于两个 3 条簇，但核心场景与影响更明确，因此列第 2。",
+      "competitor_summary": "在当前样本中，企业微信账号模块有 7 条、飞书有 5 条；企业微信 W001/W035 主要体现登录途径或验证选项障碍，并非相同的验证码送达失败。当前样本不足以形成明确竞品差异判断。",
+      "competitor_evidence_ids": [
+        "W001",
+        "W035"
+      ],
+      "proposed_solution": [
+        "产品方案建议：为验证码发送与到达失败提供可追踪状态、清晰错误提示及受限重发入口。",
+        "产品方案建议：在符合账号安全要求的前提下提供可用的备用验证渠道。"
+      ],
+      "validation_metrics": [
+        "验证码请求成功率与到达率（分渠道）",
+        "验证码验证完成率",
+        "登录/注册完成率",
+        "验证码相关投诉数量"
+      ],
+      "evidence": [
+        {
+          "feedback_id": "L004",
+          "product": "飞书/Lark",
+          "comment": "登入後不明原因被登出，之後就一直收不到驗證碼",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "账号/登录/验证",
+          "core_user_pain": "不明原因被登出，之后持续收不到验证码，无法重新登录",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+          "source_run": "v3",
+          "original_excel_row": "5",
+          "eligible": true,
+          "issue_id": "ISS-138b4f4a6e20",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "L028",
+          "product": "飞书/Lark",
+          "comment": "Não consigo registrar nem por e-mail e nem por telefone. O app não envia o código de verificação.",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "账号/登录/验证",
+          "core_user_pain": "应用不发送验证码，导致邮箱和手机号两种方式均无法完成注册",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "29",
+          "eligible": true,
+          "issue_id": "ISS-138b4f4a6e20",
+          "exclusion_reason": ""
+        }
+      ]
+    },
+    {
+      "issue_id": "ISS-6b4345525155",
+      "product": "企业微信/WeCom",
+      "issue_title": "安装更新附加文件下载失败或循环提示",
+      "product_module": "安装/更新",
+      "issue_summary": "W003 反复弹出额外文件下载提示；W006 下载失败后无法打开，重装后恢复；W007 下载显示 0% 后回到提示且重装无效。",
+      "evidence_count": 3,
+      "evidence_ids": [
+        "W003",
+        "W006",
+        "W007"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W003",
+          "comment": "安装完打开提示需要下载额外文件，一直点下载 一直弹，什么垃圾应用啊"
+        },
+        {
+          "feedback_id": "W006",
+          "comment": "9/30跳出更新完畢後，企業微信跳出需下載額外檔案，點擊下載系統都顯示失敗，並且再也無法打開。後來移除企業微信並重新下載4.1.30版本後恢復。"
+        },
+        {
+          "feedback_id": "W007",
+          "comment": "Installed WeCom from Google Play on my iData T1 Pro. On launch, it asks to download 94 MB of additional files. After I tap Download, it briefly shows “Loading... 0%” and immediately returns to the same prompt. This repeats endlessly, with no error message, so the app is unusable. Reinstalling did not help."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 3
+      },
+      "severity_distribution": {
+        "中": 2,
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "点击下载后仍反复弹出额外文件下载提示",
+        "更新后所需额外文件下载失败，导致应用无法打开，需卸载重装才能恢复。",
+        "附加文件下载短暂显示 0% 后立即返回下载提示，陷入无限循环且无报错，导致应用无法使用，重新安装也无效。"
+      ],
+      "review_status": "evidence_checked_by_assistant",
+      "review_note": "核对 W003/W006/W007 原文；按附加资源下载任务归并，区分循环、失败和重装恢复差异；不扩大到其他更新问题。",
+      "merge_basis": "anchor",
+      "rank": 3,
+      "problem": "用户在安装后首次启动或更新后，需要下载附加文件，但流程失败或反复回到下载提示。W006、W007 明确说明应用无法打开或使用。保留各自恢复情况，不把所有成员统一解释为网络故障。",
+      "priority": "高",
+      "priority_reason": "重复 3 条，高严重程度 1/3；附加文件流程直接关系应用能否进入。企业微信安装模块集中出现，飞书同模块当前为 0 条，但不代表没有缺陷。",
+      "competitor_summary": "在当前样本中，企业微信安装/更新为 6/32，飞书为 0/31；该簇 3 条。W005/W017/W023 是同模块其他独立 Issue；W009 虽有类似下载描述，但预测模块为性能/稳定性，不移入此簇。",
+      "competitor_evidence_ids": [],
+      "proposed_solution": [
+        "产品方案建议：明确附加资源下载状态与失败原因，提供可恢复的重试入口而非循环提示。",
+        "产品方案建议：检查安装包、资源版本与更新路径的一致性，覆盖已有失败安装场景回归。"
+      ],
+      "validation_metrics": [
+        "附加资源下载完成率",
+        "安装/更新后首次启动成功率",
+        "循环下载提示发生率",
+        "相关投诉数量"
+      ],
+      "evidence": [
+        {
+          "feedback_id": "W003",
+          "product": "企业微信/WeCom",
+          "comment": "安装完打开提示需要下载额外文件，一直点下载 一直弹，什么垃圾应用啊",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "安装/更新",
+          "core_user_pain": "点击下载后仍反复弹出额外文件下载提示",
+          "severity": "中",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "47",
+          "eligible": true,
+          "issue_id": "ISS-6b4345525155",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "W006",
+          "product": "企业微信/WeCom",
+          "comment": "9/30跳出更新完畢後，企業微信跳出需下載額外檔案，點擊下載系統都顯示失敗，並且再也無法打開。後來移除企業微信並重新下載4.1.30版本後恢復。",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "安装/更新",
+          "core_user_pain": "更新后所需额外文件下载失败，导致应用无法打开，需卸载重装才能恢复。",
+          "severity": "中",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "50",
+          "eligible": true,
+          "issue_id": "ISS-6b4345525155",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "W007",
+          "product": "企业微信/WeCom",
+          "comment": "Installed WeCom from Google Play on my iData T1 Pro. On launch, it asks to download 94 MB of additional files. After I tap Download, it briefly shows “Loading... 0%” and immediately returns to the same prompt. This repeats endlessly, with no error message, so the app is unusable. Reinstalling did not help.",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "安装/更新",
+          "core_user_pain": "附加文件下载短暂显示 0% 后立即返回下载提示，陷入无限循环且无报错，导致应用无法使用，重新安装也无效。",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "51",
+          "eligible": true,
+          "issue_id": "ISS-6b4345525155",
+          "exclusion_reason": ""
+        }
+      ]
+    },
+    {
+      "issue_id": "ISS-ab72710c8df7",
+      "product": "企业微信/WeCom",
+      "issue_title": "界面语言无法切换或选择后不生效",
+      "product_module": "国际化/翻译",
+      "issue_summary": "W024 无法切换语言以配置和工作；W027 界面变成中文后无法切回；W030 选择英语仍显示中文，并描述注册未完成。",
+      "evidence_count": 3,
+      "evidence_ids": [
+        "W024",
+        "W027",
+        "W030"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W024",
+          "comment": "Não consigo trocar a linguagem pra poder configurar e poder trabalhar!!!!"
+        },
+        {
+          "feedback_id": "W027",
+          "comment": "Nice program but my surface language changed to Chinese and I can't switch it back... help desk seems to be helpless, too!"
+        },
+        {
+          "feedback_id": "W030",
+          "comment": "даже после выбора английского языка все на китайском, ничего не понятно, делала все интуитивно и все равно не получилось зарегистрироваться"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1,
+        "Bug": 2
+      },
+      "severity_distribution": {
+        "中": 2,
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "无法完成语言切换，影响配置和工作使用",
+        "界面语言异常变为中文且无法切换回原语言，客服似乎也无法解决。",
+        "选择英语后界面仍全部显示中文，用户无法理解，凭直觉操作仍未能完成注册。"
+      ],
+      "review_status": "evidence_checked_by_assistant",
+      "review_note": "核对 W024/W027/W030 原文，标题涵盖切换及生效问题；不与 W022 翻译覆盖不足混为同一问题。",
+      "merge_basis": "anchor",
+      "rank": 4,
+      "problem": "需要非中文界面的用户在设置语言或恢复界面语言时遇到障碍，影响理解界面和完成操作。证据支持语言切换任务异常，而不是所有翻译内容质量差。",
+      "priority": "中",
+      "priority_reason": "重复 3 条，高严重程度 1/3；部分评论影响配置或注册，但其余影响范围不充分。暂列中，保留 W030 的高影响个案，不因多语言措辞自动升级。",
+      "competitor_summary": "在当前样本中，企业微信国际化/翻译模块 4/32，其中该簇 3 条；飞书预测主模块为国际化/翻译的有 0 条。但 L037 原文也提及翻译不佳，未作为主模块计数，因此不能声称飞书不存在语言问题。",
+      "competitor_evidence_ids": [
+        "L037"
+      ],
+      "proposed_solution": [
+        "产品方案建议：统一语言选择、保存与重新加载逻辑，核验语言切换确实生效。",
+        "产品方案建议：为无法理解当前语言的用户提供容易识别的语言恢复入口，并回归注册路径。"
+      ],
+      "validation_metrics": [
+        "语言切换成功率",
+        "切换后语言一致性错误率",
+        "相关语言用户注册完成率",
+        "语言设置相关投诉数量"
+      ],
+      "evidence": [
+        {
+          "feedback_id": "W024",
+          "product": "企业微信/WeCom",
+          "comment": "Não consigo trocar a linguagem pra poder configurar e poder trabalhar!!!!",
+          "valid": true,
+          "feedback_type": "使用困难",
+          "product_module": "国际化/翻译",
+          "core_user_pain": "无法完成语言切换，影响配置和工作使用",
+          "severity": "中",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "68",
+          "eligible": true,
+          "issue_id": "ISS-ab72710c8df7",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "W027",
+          "product": "企业微信/WeCom",
+          "comment": "Nice program but my surface language changed to Chinese and I can't switch it back... help desk seems to be helpless, too!",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "国际化/翻译",
+          "core_user_pain": "界面语言异常变为中文且无法切换回原语言，客服似乎也无法解决。",
+          "severity": "中",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "71",
+          "eligible": true,
+          "issue_id": "ISS-ab72710c8df7",
+          "exclusion_reason": ""
+        },
+        {
+          "feedback_id": "W030",
+          "product": "企业微信/WeCom",
+          "comment": "даже после выбора английского языка все на китайском, ничего не понятно, делала все интуитивно и все равно не получилось зарегистрироваться",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "国际化/翻译",
+          "core_user_pain": "选择英语后界面仍全部显示中文，用户无法理解，凭直觉操作仍未能完成注册。",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "74",
+          "eligible": true,
+          "issue_id": "ISS-ab72710c8df7",
+          "exclusion_reason": ""
+        }
+      ]
+    },
+    {
+      "issue_id": "ISS-568ec73ccc90",
+      "product": "企业微信/WeCom",
+      "issue_title": "换机登录陷入旧设备验证循环",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "W015 描述更换手机并重置旧手机后，新手机要求旧手机验证，旧手机重装登录也要求在自身验证，无法完成登录。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W015"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W015",
+          "comment": "mua điện thoại mới rồi reset điện thoại cũ khi vẫn còn đăng nhập ở điện thoại cũ, vậy là qua bên điện thoại mới nó bắt xác thực ở điện thoại cũ. tải lại ở điện thoại cũ để đăng nhập lại vẫn bắt xác thực trên chính điện thoại cũ. chịu"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "新手机登录要求在旧手机上验证，旧手机重装后登录仍要求在旧手机自身验证，陷入验证循环，无法完成登录。"
+      ],
+      "review_status": "evidence_checked_by_assistant",
+      "review_note": "逐句核对 W015 越南语原文与已保存痛点；仅 1 条原始评论，不能提供或虚构 2–3 条独立证据。",
+      "merge_basis": "exact",
+      "rank": 5,
+      "problem": "用户更换设备并重置旧设备后，登录验证依赖已经不可用的旧会话；尝试恢复旧设备登录仍陷入验证要求。仅有一条评论，不推断此流程对所有用户均不可恢复。",
+      "priority": "高",
+      "priority_reason": "单条高严重程度 1/1，直接影响登录与换机恢复，作为只有 4 个多成员 Issue 时的第 5 个补充。没有重复性证据，排序低于所有多成员候选；需先复现确认。",
+      "competitor_summary": "在当前样本中，飞书 L004/L012/L021 也涉及账号进入失败，但没有相同的换机旧设备验证循环证据。当前样本不足以形成明确竞品差异判断。",
+      "competitor_evidence_ids": [
+        "L004",
+        "L012",
+        "L021"
+      ],
+      "proposed_solution": [
+        "产品方案建议：在符合账号安全要求下，提供不依赖旧设备已登录会话的账号恢复路径。",
+        "产品方案建议：对换机、旧设备重置与重新安装组合做验证流程回归，并提示可用恢复入口。"
+      ],
+      "validation_metrics": [
+        "换机账号恢复完成率",
+        "重复验证循环发生率",
+        "账号恢复完成耗时",
+        "换机验证相关投诉数量"
+      ],
+      "evidence": [
+        {
+          "feedback_id": "W015",
+          "product": "企业微信/WeCom",
+          "comment": "mua điện thoại mới rồi reset điện thoại cũ khi vẫn còn đăng nhập ở điện thoại cũ, vậy là qua bên điện thoại mới nó bắt xác thực ở điện thoại cũ. tải lại ở điện thoại cũ để đăng nhập lại vẫn bắt xác thực trên chính điện thoại cũ. chịu",
+          "valid": true,
+          "feedback_type": "Bug",
+          "product_module": "账号/登录/验证",
+          "core_user_pain": "新手机登录要求在旧手机上验证，旧手机重装后登录仍要求在旧手机自身验证，陷入验证循环，无法完成登录。",
+          "severity": "高",
+          "user_scenario": "",
+          "scenario_source": "not_saved",
+          "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+          "source_run": "v3_holdout",
+          "original_excel_row": "59",
+          "eligible": true,
+          "issue_id": "ISS-568ec73ccc90",
+          "exclusion_reason": ""
+        }
+      ]
+    }
+  ]
+}

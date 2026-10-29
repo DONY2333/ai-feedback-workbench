@@ -1,0 +1,275 @@
+{
+  "model_api_calls": 0,
+  "langfuse_writes": 0,
+  "historical_replay": [
+    {
+      "prompt_version": "v1",
+      "normalization_version": "v1-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 1,
+          "accuracy": 0.05
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 12,
+          "accuracy": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "prompt_version": "v2",
+      "normalization_version": "v2-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 16,
+          "accuracy": 0.8
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 12,
+          "accuracy": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "prompt_version": "v3",
+      "normalization_version": "v3-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "input_stage": "archived_prediction_not_raw_response",
+      "all_matches_equal": true,
+      "summary_equal": true,
+      "summary": [
+        {
+          "field": "是否为有效产品反馈",
+          "total": 20,
+          "correct": 20,
+          "accuracy": 1.0
+        },
+        {
+          "field": "反馈类型",
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95
+        },
+        {
+          "field": "产品模块",
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9
+        },
+        {
+          "field": "严重程度",
+          "total": 18,
+          "correct": 14,
+          "accuracy": 0.7777777777777778
+        }
+      ]
+    }
+  ],
+  "c0_local_corrections": [
+    {
+      "prompt_version": "v1",
+      "normalization_version": "v1-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "无历史 normalization 源码与完整原始响应；V1 仅保守保留历史自由文本、原严重程度和标签，不推断未知修复。",
+      "score_input_source": "normalized_output",
+      "raw_output": {
+        "是否为有效产品反馈": true,
+        "反馈类型": "正向评价",
+        "产品模块": "国外版本整体体验",
+        "用户场景": "未提及具体使用场景",
+        "核心痛点": "未指出具体痛点，仅表示可能有其他更好的产品",
+        "情绪倾向": "正向",
+        "严重程度": "低",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "normalized_output": {
+        "是否为有效产品反馈": true,
+        "反馈类型": "正向评价",
+        "产品模块": "国外版本整体体验",
+        "用户场景": "未提及具体使用场景",
+        "核心痛点": "未指出具体痛点，仅表示可能有其他更好的产品",
+        "情绪倾向": "正向",
+        "严重程度": "低",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "score_input": {
+        "是否为有效产品反馈": true,
+        "反馈类型": "正向评价",
+        "产品模块": "国外版本整体体验",
+        "用户场景": "未提及具体使用场景",
+        "核心痛点": "未指出具体痛点，仅表示可能有其他更好的产品",
+        "情绪倾向": "正向",
+        "严重程度": "低",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "gold_id": "L001",
+      "source": "existing_C0_raw_output",
+      "old_scores": {
+        "valid_correct": 0,
+        "feedback_type_correct": 0,
+        "product_module_correct": 1,
+        "all_fields_correct": 0
+      },
+      "corrected_scores": {
+        "valid_correct": 0,
+        "feedback_type_correct": 0,
+        "product_module_correct": 0,
+        "all_fields_correct": 0
+      }
+    },
+    {
+      "prompt_version": "v2",
+      "normalization_version": "v2-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "raw_output": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "normalized_output": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "score_input": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "gold_id": "L001",
+      "source": "existing_C0_raw_output",
+      "old_scores": {
+        "valid_correct": 1,
+        "feedback_type_correct": 1,
+        "product_module_correct": 1,
+        "all_fields_correct": 1
+      },
+      "corrected_scores": {
+        "valid_correct": 1,
+        "feedback_type_correct": 1,
+        "product_module_correct": 1,
+        "all_fields_correct": 1
+      }
+    },
+    {
+      "prompt_version": "v3",
+      "normalization_version": "v3-known-rules-1",
+      "scoring_version": "historical-exact-match-v1",
+      "normalization_reproduction": "partial",
+      "normalization_limitation": "锁定当前可确认的正式标准化规则；历史运行时源码和完整原始响应未存档，不能证明全部异常分支的历史行为。",
+      "score_input_source": "normalized_output",
+      "raw_output": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "normalized_output": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "score_input": {
+        "是否为有效产品反馈": false,
+        "反馈类型": "情绪/无效反馈",
+        "产品模块": "其他",
+        "用户场景": "未识别",
+        "核心痛点": "未识别",
+        "情绪倾向": "正向",
+        "严重程度": "不适用",
+        "原始评论证据": "国外版本还是不错的 但是或许还有其他跟更好点"
+      },
+      "gold_id": "L001",
+      "source": "existing_C0_raw_output",
+      "old_scores": {
+        "valid_correct": 1,
+        "feedback_type_correct": 1,
+        "product_module_correct": 1,
+        "all_fields_correct": 1
+      },
+      "corrected_scores": {
+        "valid_correct": 1,
+        "feedback_type_correct": 1,
+        "product_module_correct": 1,
+        "all_fields_correct": 1
+      }
+    }
+  ]
+}

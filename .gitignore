@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+outputs/*.csv
+outputs/*.xlsx
+!outputs/.gitkeep
+analysis/results/user_runs/
+*.xlsx.inspect.ndjson
+

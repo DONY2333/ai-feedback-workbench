@@ -1,0 +1,3168 @@
+{
+  "schema_version": "e1-offline-v1",
+  "method": "conservative_anchors_and_exact_pain",
+  "issues": [
+    {
+      "issue_id": "ISS-d24e66adca12",
+      "product": "企业微信/WeCom",
+      "issue_title": "兼容性/多端：产品挑手机，对手机的兼容适配不佳",
+      "product_module": "兼容性/多端",
+      "issue_summary": "产品挑手机，对手机的兼容适配不佳",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W013"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W013",
+          "comment": "quá kén điện thoại"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "产品挑手机，对手机的兼容适配不佳"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-ab72710c8df7",
+      "product": "企业微信/WeCom",
+      "issue_title": "界面语言切换异常",
+      "product_module": "国际化/翻译",
+      "issue_summary": "无法完成语言切换，影响配置和工作使用；界面语言异常变为中文且无法切换回原语言，客服似乎也无法解决。；选择英语后界面仍全部显示中文，用户无法理解，凭直觉操作仍未能完成注册。",
+      "evidence_count": 3,
+      "evidence_ids": [
+        "W024",
+        "W027",
+        "W030"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W024",
+          "comment": "Não consigo trocar a linguagem pra poder configurar e poder trabalhar!!!!"
+        },
+        {
+          "feedback_id": "W027",
+          "comment": "Nice program but my surface language changed to Chinese and I can't switch it back... help desk seems to be helpless, too!"
+        },
+        {
+          "feedback_id": "W030",
+          "comment": "даже после выбора английского языка все на китайском, ничего не понятно, делала все интуитивно и все равно не получилось зарегистрироваться"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1,
+        "Bug": 2
+      },
+      "severity_distribution": {
+        "中": 2,
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "无法完成语言切换，影响配置和工作使用",
+        "界面语言异常变为中文且无法切换回原语言，客服似乎也无法解决。",
+        "选择英语后界面仍全部显示中文，用户无法理解，凭直觉操作仍未能完成注册。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "anchor"
+    },
+    {
+      "issue_id": "ISS-5334fcf32d8f",
+      "product": "企业微信/WeCom",
+      "issue_title": "国际化/翻译：界面主要为中文，英文翻译不完整，缺少葡萄牙语和西班牙语，条款与条件也为中文，语言难以理解导致产品实用性受限。",
+      "product_module": "国际化/翻译",
+      "issue_summary": "界面主要为中文，英文翻译不完整，缺少葡萄牙语和西班牙语，条款与条件也为中文，语言难以理解导致产品实用性受限。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W022"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W022",
+          "comment": "Tudo em chinês, o inglês é incompleto e o português/espanhol não existe. Os termos e condições em chinês; para ações corporativas tem sua utilidade, porém muito limitada devido ao idioma incompreensível."
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "界面主要为中文，英文翻译不完整，缺少葡萄牙语和西班牙语，条款与条件也为中文，语言难以理解导致产品实用性受限。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-6b4345525155",
+      "product": "企业微信/WeCom",
+      "issue_title": "安装更新附加文件下载异常",
+      "product_module": "安装/更新",
+      "issue_summary": "点击下载后仍反复弹出额外文件下载提示；更新后所需额外文件下载失败，导致应用无法打开，需卸载重装才能恢复。；附加文件下载短暂显示 0% 后立即返回下载提示，陷入无限循环且无报错，导致应用无法使用，重新安装也无效。",
+      "evidence_count": 3,
+      "evidence_ids": [
+        "W003",
+        "W006",
+        "W007"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W003",
+          "comment": "安装完打开提示需要下载额外文件，一直点下载 一直弹，什么垃圾应用啊"
+        },
+        {
+          "feedback_id": "W006",
+          "comment": "9/30跳出更新完畢後，企業微信跳出需下載額外檔案，點擊下載系統都顯示失敗，並且再也無法打開。後來移除企業微信並重新下載4.1.30版本後恢復。"
+        },
+        {
+          "feedback_id": "W007",
+          "comment": "Installed WeCom from Google Play on my iData T1 Pro. On launch, it asks to download 94 MB of additional files. After I tap Download, it briefly shows “Loading... 0%” and immediately returns to the same prompt. This repeats endlessly, with no error message, so the app is unusable. Reinstalling did not help."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 3
+      },
+      "severity_distribution": {
+        "中": 2,
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "点击下载后仍反复弹出额外文件下载提示",
+        "更新后所需额外文件下载失败，导致应用无法打开，需卸载重装才能恢复。",
+        "附加文件下载短暂显示 0% 后立即返回下载提示，陷入无限循环且无报错，导致应用无法使用，重新安装也无效。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "anchor"
+    },
+    {
+      "issue_id": "ISS-e2fd11b15a0a",
+      "product": "企业微信/WeCom",
+      "issue_title": "安装/更新：反复提示使用更新版本，却无处找到新版本，导致无法使用。",
+      "product_module": "安装/更新",
+      "issue_summary": "反复提示使用更新版本，却无处找到新版本，导致无法使用。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W023"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W023",
+          "comment": "muito ruim. não consigo usar. fica pedindo para utilizar versão mais nova. mais não se encontra versão mais nova em lugar nenhum"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "反复提示使用更新版本，却无处找到新版本，导致无法使用。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-46a0ec1fda2e",
+      "product": "企业微信/WeCom",
+      "issue_title": "安装/更新：应用已是最新版本却仍要求更新，导致无法打开",
+      "product_module": "安装/更新",
+      "issue_summary": "应用已是最新版本却仍要求更新，导致无法打开",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W017"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W017",
+          "comment": "aplikasi tidak bisa di buka tulisannya perbarui padahal sudah versi terbaru"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "应用已是最新版本却仍要求更新，导致无法打开"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-517b5e9f5977",
+      "product": "企业微信/WeCom",
+      "issue_title": "安装/更新：要求下载程式却无法下载，重装后问题依旧，导致线上工作完全停摆。",
+      "product_module": "安装/更新",
+      "issue_summary": "要求下载程式却无法下载，重装后问题依旧，导致线上工作完全停摆。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W005"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W005",
+          "comment": "今突然跳出要下載程式才能使用之類文字，但又不能下載，整個app重新安裝後也一樣！線上工作因此整個停擺。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "要求下载程式却无法下载，重装后问题依旧，导致线上工作完全停摆。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-c1496876336d",
+      "product": "企业微信/WeCom",
+      "issue_title": "客户管理/外部联系：在职继承提示与实际结果不一致，操作后本人立即退群，被继承者触发风控被封禁，多次投诉未获处理。",
+      "product_module": "客户管理/外部联系",
+      "issue_summary": "在职继承提示与实际结果不一致，操作后本人立即退群，被继承者触发风控被封禁，多次投诉未获处理。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W039"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W039",
+          "comment": "企业微信的在职继承提示说明与实际结果不一致。评论者想把自己作为群主的群转移给他人，同时在职期间继续留群，但操作后自己立即退群，被继承者又触发风控并被禁封；多次投诉未处理。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "在职继承提示与实际结果不一致，操作后本人立即退群，被继承者触发风控被封禁，多次投诉未获处理。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-1d03311fcf65",
+      "product": "企业微信/WeCom",
+      "issue_title": "工作流/权限/组织：删除成员后无离职记录、继承入口或风险提示；重新加入生成新账号，原账号聊天、群聊、文件和权限等数据无法同步或找回。",
+      "product_module": "工作流/权限/组织",
+      "issue_summary": "删除成员后无离职记录、继承入口或风险提示；重新加入生成新账号，原账号聊天、群聊、文件和权限等数据无法同步或找回。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W034"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W034",
+          "comment": "我要反馈企业微信严重的规则设计缺陷问题：原有账号由微信授权登录创建，后续绑定手机号并长期办公；管理员普通删除成员后，后台无离职记录、无离职继承入口、无系统风险提示。用同一手机号重新加入后生成全新账号，即便再次绑定微信，也无法同步或找回原账号聊天、群聊、文件、权限等数据。评论者认为同样是手机号+微信双重绑定的正式成员，仅因初始创建方式不同而存在完全不同的数据保护与交接规则，且缺乏提示。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "删除成员后无离职记录、继承入口或风险提示；重新加入生成新账号，原账号聊天、群聊、文件和权限等数据无法同步或找回。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-3d451f99e867",
+      "product": "企业微信/WeCom",
+      "issue_title": "性能/稳定性：打开应用后持续无响应",
+      "product_module": "性能/稳定性",
+      "issue_summary": "打开应用后持续无响应",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W016"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W016",
+          "comment": "heran bgt pdhal ni hp gw masih kuat buat game berat dn bisa rata kanan, tp giliran buka apk ini tidak menanggapi terus😭😭😭"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "打开应用后持续无响应"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-db081d568173",
+      "product": "企业微信/WeCom",
+      "issue_title": "性能/稳定性：无法再次进入应用，更新后仍未解决",
+      "product_module": "性能/稳定性",
+      "issue_summary": "无法再次进入应用，更新后仍未解决",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W012"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W012",
+          "comment": "แย่ เข้ารอบสองไม่ได้ อัปเดตแล้วก็ยังเข้าไม่อีก"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "无法再次进入应用，更新后仍未解决"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-9fd4e3b83181",
+      "product": "企业微信/WeCom",
+      "issue_title": "性能/稳定性：查看工资时被退出，尝试10次仍无法进入",
+      "product_module": "性能/稳定性",
+      "issue_summary": "查看工资时被退出，尝试10次仍无法进入",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W010"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W010",
+          "comment": "แอปกากมากกก กกเข้าดูเงินเดือนแล้วดีด เป็นอะไรนักหนาาา เข้าที 10 รอบก็ไม่ได้เลย ไปพัฒนาแอปไป๊"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "查看工资时被退出，尝试10次仍无法进入"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-ff149ccff3aa",
+      "product": "企业微信/WeCom",
+      "issue_title": "性能/稳定性：用户表示网络正常且速度很快，但应用反复提示无网络，无法完成加载。",
+      "product_module": "性能/稳定性",
+      "issue_summary": "用户表示网络正常且速度很快，但应用反复提示无网络，无法完成加载。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W029"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W029",
+          "comment": "ужасное приложение!!!! говорит типо у меня плохой интернет но он прекрасный и работает очень быстро; нажимала миллион раз чтобы он загрузил и все равно говорит нет интернета"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "用户表示网络正常且速度很快，但应用反复提示无网络，无法完成加载。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-681b00680ef3",
+      "product": "企业微信/WeCom",
+      "issue_title": "性能/稳定性：近期两次无法进入应用并闪退，只有重新安装才能解决",
+      "product_module": "性能/稳定性",
+      "issue_summary": "近期两次无法进入应用并闪退，只有重新安装才能解决",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W004"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W004",
+          "comment": "最近已經發生了2次：不能進入，閃退後彈出，只有重新安裝才能解決問題"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "近期两次无法进入应用并闪退，只有重新安装才能解决"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-079b88442a5c",
+      "product": "企业微信/WeCom",
+      "issue_title": "性能/稳定性：进入应用时无法加载，点击更新也无法完成",
+      "product_module": "性能/稳定性",
+      "issue_summary": "进入应用时无法加载，点击更新也无法完成",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W011"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W011",
+          "comment": "โหลดมา แต่พอจะเข้าดันไม่โหลดให้ พอกดอัปเดต ก็ไม่ได้ คืออะไร"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "进入应用时无法加载，点击更新也无法完成"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-f52b84759416",
+      "product": "企业微信/WeCom",
+      "issue_title": "性能/稳定性：附加功能下载不断增加，应用陷入无限加载，无法直接使用",
+      "product_module": "性能/稳定性",
+      "issue_summary": "附加功能下载不断增加，应用陷入无限加载，无法直接使用",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W009"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W009",
+          "comment": "i used to download recently and after installation it require me to 'download additional features' but these 'features' get more and more so now i have infinite loading of something instead of direct using of app"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "附加功能下载不断增加，应用陷入无限加载，无法直接使用"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-b71e6b21b33a",
+      "product": "企业微信/WeCom",
+      "issue_title": "聊天/消息：用户认为聊天缺乏隐私保护，拥有秘密访问权限的人可窥探所有消息",
+      "product_module": "聊天/消息",
+      "issue_summary": "用户认为聊天缺乏隐私保护，拥有秘密访问权限的人可窥探所有消息",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W019"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W019",
+          "comment": "Con esta app china, ten en cuenta que tú conversación jamás será privada y los que tengan acceso (secreto) van a espiar todos tus mensajes."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "用户认为聊天缺乏隐私保护，拥有秘密访问权限的人可窥探所有消息"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-568ec73ccc90",
+      "product": "企业微信/WeCom",
+      "issue_title": "账号/登录/验证：新手机登录要求在旧手机上验证，旧手机重装后登录仍要求在旧手机自身验证，陷入验证循环，无法完成登录。",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "新手机登录要求在旧手机上验证，旧手机重装后登录仍要求在旧手机自身验证，陷入验证循环，无法完成登录。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W015"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W015",
+          "comment": "mua điện thoại mới rồi reset điện thoại cũ khi vẫn còn đăng nhập ở điện thoại cũ, vậy là qua bên điện thoại mới nó bắt xác thực ở điện thoại cũ. tải lại ở điện thoại cũ để đăng nhập lại vẫn bắt xác thực trên chính điện thoại cũ. chịu"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "新手机登录要求在旧手机上验证，旧手机重装后登录仍要求在旧手机自身验证，陷入验证循环，无法完成登录。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-e38efba239d3",
+      "product": "企业微信/WeCom",
+      "issue_title": "账号/登录/验证：无法通过微信或手机账号密码登录，也无法注册；应用反复提示下载额外文件，但一直下载失败，导致无法使用。",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "无法通过微信或手机账号密码登录，也无法注册；应用反复提示下载额外文件，但一直下载失败，导致无法使用。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W001"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W001",
+          "comment": "Google play没有微信主版，所以就登陆不上去微信登录法，而又不能手机帐号密码登录法，所以就登陆不上去，又不能注册。无法下载额外的文件，无法使用，他老提示要下载额外的文件，但是一直下载不成。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "无法通过微信或手机账号密码登录，也无法注册；应用反复提示下载额外文件，但一直下载失败，导致无法使用。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-b2b2d4f47962",
+      "product": "企业微信/WeCom",
+      "issue_title": "账号/登录/验证：注册列表中没有用户使用的829电话前缀，导致无法注册并开始使用应用。",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "注册列表中没有用户使用的829电话前缀，导致无法注册并开始使用应用。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W020"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W020",
+          "comment": "Todavía no he llegado a usar la app ya que no me puedo registrar con mi número de teléfono. Soy de República Dominicana y el prefijo 829 que uso actualmente no se encuentra entre la lista del registro."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "注册列表中没有用户使用的829电话前缀，导致无法注册并开始使用应用。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-ad4d08824d91",
+      "product": "企业微信/WeCom",
+      "issue_title": "账号/登录/验证：注销门槛高，客服等待时间长，耗时近两小时仍未解决；对个人信息安全和授权流程不满",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "注销门槛高，客服等待时间长，耗时近两小时仍未解决；对个人信息安全和授权流程不满",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W036"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W036",
+          "comment": "一旦注册，注销门槛特别高。联系客服沟通注销问题，等待时间长，耗时近两个小时仍未解决，评论者同时表达了对个人信息安全和授权流程的不满。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "注销门槛高，客服等待时间长，耗时近两小时仍未解决；对个人信息安全和授权流程不满"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-60fd2c14126f",
+      "product": "企业微信/WeCom",
+      "issue_title": "账号/登录/验证：登录验证仅提供无法满足的同事辅助验证或原设备扫码，帮助文档所述短信验证和实名验证多次尝试均未出现，联系客服仍未解决。",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "登录验证仅提供无法满足的同事辅助验证或原设备扫码，帮助文档所述短信验证和实名验证多次尝试均未出现，联系客服仍未解决。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W035"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W035",
+          "comment": "帐号验证有严重bug，跟帮助文档里提供的信息不符。选择微信登陆时只有同事辅助验证，但本人账号不在要求验证的公司里；手机号登陆又只提供同事辅助验证和原设备扫码。帮助文档提到的短信验证和实名验证多次尝试都未出现，联系客服也未解决。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "登录验证仅提供无法满足的同事辅助验证或原设备扫码，帮助文档所述短信验证和实名验证多次尝试均未出现，联系客服仍未解决。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-c89f9f1a604a",
+      "product": "企业微信/WeCom",
+      "issue_title": "账号/登录/验证：频繁被强制退出登录，重新登录还被要求多重验证及强制刷脸。",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "频繁被强制退出登录，重新登录还被要求多重验证及强制刷脸。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W002"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W002",
+          "comment": "一个流氓软件，动不动就被强制退出了，提示登录过期，重新登录明明提供了密码，手机验证，还强制刷脸。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "频繁被强制退出登录，重新登录还被要求多重验证及强制刷脸。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-d5f85d2ed988",
+      "product": "企业微信/WeCom",
+      "issue_title": "账号/登录/验证：登录失败",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "登录失败",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W033"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W033",
+          "comment": "Gagal Login"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "登录失败"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "single"
+    },
+    {
+      "issue_id": "ISS-31e97b3eccb3",
+      "product": "企业微信/WeCom",
+      "issue_title": "消息通知送达或显示异常",
+      "product_module": "通知",
+      "issue_summary": "开启省电模式后收不到通知",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W021"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W021",
+          "comment": "No llegan notificaciones cuando se activa ahorro de batería, fuera de eso bastante estable y con funciones interesantes"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "开启省电模式后收不到通知"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "anchor"
+    },
+    {
+      "issue_id": "ISS-ff49af320a20",
+      "product": "企业微信/WeCom",
+      "issue_title": "通知：推送通知已启用，但始终无法收到。",
+      "product_module": "通知",
+      "issue_summary": "推送通知已启用，但始终无法收到。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W008"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W008",
+          "comment": "What a buggy mess. Push notifications never come through, even though they are enabled. If you have dark mode enabled, they didn't think to make the text white when typing out an email, so black text on a black page."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "推送通知已启用，但始终无法收到。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-d0708c75acf2",
+      "product": "企业微信/WeCom",
+      "issue_title": "风控/申诉：账号因涉嫌违反法律被永久封禁，无法继续使用。",
+      "product_module": "风控/申诉",
+      "issue_summary": "账号因涉嫌违反法律被永久封禁，无法继续使用。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W028"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W028",
+          "comment": "Переключение на английский язык не работает. Зарегистрировался наощупь через WeChat. На главном экране понял, что моего китайского не хватает. Переустановил через .apk с официального сайта. Появился английский. Получил перманентный бан за подозрение в нарушении законов."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "账号因涉嫌违反法律被永久封禁，无法继续使用。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-b533116a5435",
+      "product": "企业微信/WeCom",
+      "issue_title": "风控/申诉：账号被永久封禁后，多次申诉仍被要求联系企业管理员，长时间未能解决。",
+      "product_module": "风控/申诉",
+      "issue_summary": "账号被永久封禁后，多次申诉仍被要求联系企业管理员，长时间未能解决。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "W038"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "W038",
+          "comment": "被骗子拉进企业微信群后遭踢出，之后账号显示违规永久封号。多次申诉后仍被要求找企业管理员，长时间未解决，评论者认为封号与申诉处理机制不合理。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "账号被永久封禁后，多次申诉仍被要求联系企业管理员，长时间未能解决。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-baac825df79f",
+      "product": "飞书/Lark",
+      "issue_title": "会议/通话：会议中麦克风静音响应略有延迟，用户希望会议操作更流畅。",
+      "product_module": "会议/通话",
+      "issue_summary": "会议中麦克风静音响应略有延迟，用户希望会议操作更流畅。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L027"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L027",
+          "comment": "Muy buena la aplicación en cuanto a funcionalidad, pero debería ocupar menos espacio en el celular (más de 1 GB a los pocos días) y ser más rápida en meetings; el silencio del micrófono tarda un poco en responder."
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "低": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "会议中麦克风静音响应略有延迟，用户希望会议操作更流畅。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-5f72dc50f620",
+      "product": "飞书/Lark",
+      "issue_title": "会议/通话：免费版网络会议时长过短，用户认为实际上不得不购买付费会员。",
+      "product_module": "会议/通话",
+      "issue_summary": "免费版网络会议时长过短，用户认为实际上不得不购买付费会员。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L011"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L011",
+          "comment": "やはりいきなり有料化されることが発表された。無料枠はネット会議時間が短すぎるので、実質的に有料会員にならざるをえない。それまでには、チャンと日本語対応、日本の祭日表示、ヘルプの日本語化をやってほしい。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "免费版网络会议时长过短，用户认为实际上不得不购买付费会员。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-dba1780bcdf1",
+      "product": "飞书/Lark",
+      "issue_title": "会议/通话：屏幕上只能显示9人，用户对此感到遗憾",
+      "product_module": "会议/通话",
+      "issue_summary": "屏幕上只能显示9人，用户对此感到遗憾",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L022"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L022",
+          "comment": "화면에 9명밖에 안보여 아쉽지만 수업을 위한 최고어플"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "屏幕上只能显示9人，用户对此感到遗憾"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-6bb421c63121",
+      "product": "飞书/Lark",
+      "issue_title": "会议/通话：系统将用户接入非预期的其他通话",
+      "product_module": "会议/通话",
+      "issue_summary": "系统将用户接入非预期的其他通话",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L032"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L032",
+          "comment": "Sans plus sa bug sa oublie mon identifiant sa me met sur d'autre appel c'est vraiment pas conseillé si vous êtes une personne qui cherche pas la difficulté"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "系统将用户接入非预期的其他通话"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-9b281bd1143e",
+      "product": "飞书/Lark",
+      "issue_title": "其他：一旦按键交互，屏幕就会异常缩放",
+      "product_module": "其他",
+      "issue_summary": "一旦按键交互，屏幕就会异常缩放",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L034"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L034",
+          "comment": "Ansich gut zum Arbeiten und chatten, jedoch wird im Workplace der Bildschirm gezoomt sobald man mit einer Taste interagiert. 👍"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "一旦按键交互，屏幕就会异常缩放"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-89bb73e00091",
+      "product": "飞书/Lark",
+      "issue_title": "其他：希望增加归档功能，避免内容集中堆积在首页",
+      "product_module": "其他",
+      "issue_summary": "希望增加归档功能，避免内容集中堆积在首页",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L019"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L019",
+          "comment": "Aplikasinya bagus,saran untuk diadakan fitur arsip agar tidak menumpuk disatu beranda"
+        }
+      ],
+      "feedback_type_distribution": {
+        "功能建议": 1
+      },
+      "severity_distribution": {
+        "低": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "希望增加归档功能，避免内容集中堆积在首页"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-58f66da193f5",
+      "product": "飞书/Lark",
+      "issue_title": "兼容性/多端：无法在电脑端并行使用手机上的 Lark 工作群，尝试成员代码相关操作后仍未成功。",
+      "product_module": "兼容性/多端",
+      "issue_summary": "无法在电脑端并行使用手机上的 Lark 工作群，尝试成员代码相关操作后仍未成功。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L036"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L036",
+          "comment": "Ich habe meine Lark Arbeitsgruppe am Smartphone. Warum geht es nicht parallel an meinem PC? Ich hab sogar mich mit meiner Mitgliedschaft Code abgemeldet und hat nicht funktioniert"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "无法在电脑端并行使用手机上的 Lark 工作群，尝试成员代码相关操作后仍未成功。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-ff6a31476cf0",
+      "product": "飞书/Lark",
+      "issue_title": "性能/稳定性：产品多处运行卡顿，使用不流畅。",
+      "product_module": "性能/稳定性",
+      "issue_summary": "产品多处运行卡顿，使用不流畅。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L037"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L037",
+          "comment": "Много где лагает. Чаты сделаны неудобно абсолютно. Приходит новое сообщение и тебе надо листать вниз чтобы увидеть его. Переведено кошмарно. Реакции на сообщения тоже ставятся неудобно. Не видно даже когда человек печатает."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "产品多处运行卡顿，使用不流畅。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-7c1b6e57b3dd",
+      "product": "飞书/Lark",
+      "issue_title": "性能/稳定性：持续出现网络错误",
+      "product_module": "性能/稳定性",
+      "issue_summary": "持续出现网络错误",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L018"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L018",
+          "comment": "bị lôi internet suốt"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "持续出现网络错误"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-b6ff08144dfa",
+      "product": "飞书/Lark",
+      "issue_title": "搜索：搜索旧聊天消息时不容易找到所需信息",
+      "product_module": "搜索",
+      "issue_summary": "搜索旧聊天消息时不容易找到所需信息",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L014"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L014",
+          "comment": "ใช้งานง่าย สะดวก รวดเร็ว แต่มีขอเสีย เสิร์ชหาข้อมูลจากข้อความเก่าๆ ในแชทไม่ค่อยเจอ 😂😂😁😁 พัฒนาต่อไปนะค่ะ"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "搜索旧聊天消息时不容易找到所需信息"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-9391a9f3334f",
+      "product": "飞书/Lark",
+      "issue_title": "文件/分享：手机端不支持直接将照片或文档分享到其他平台",
+      "product_module": "文件/分享",
+      "issue_summary": "手机端不支持直接将照片或文档分享到其他平台",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L026"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L026",
+          "comment": "Exelente plataforma trae todo en 1, usar las autorizaciones de los base y flujos de trabajo están excelentes; solo un detalle: no se pueden compartir fotos o documentos de lark a otras plataformas directamente desde el móvil."
+        }
+      ],
+      "feedback_type_distribution": {
+        "功能建议": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "手机端不支持直接将照片或文档分享到其他平台"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-201a6d766256",
+      "product": "飞书/Lark",
+      "issue_title": "文档/编辑：修改内容无法同步更新，重启后仍未改变；有时删除一两个文字会导致整段内容重复，问题持续半年以上未改善。",
+      "product_module": "文档/编辑",
+      "issue_summary": "修改内容无法同步更新，重启后仍未改变；有时删除一两个文字会导致整段内容重复，问题持续半年以上未改善。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L005"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L005",
+          "comment": "Bug問題從2023開始。文件/文章已更改內容，但未能同步更新內容；重開lark後內容也沒有改變；有時候Delete 1-2個文字，系統還把全段內容再copy多一次。身為筆記本App來說，這些都是基礎問題，且半年以上仍未改善。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "修改内容无法同步更新，重启后仍未改变；有时删除一两个文字会导致整段内容重复，问题持续半年以上未改善。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-9dd461e59873",
+      "product": "飞书/Lark",
+      "issue_title": "文档/编辑：公式计算耗时过长，且功能有限",
+      "product_module": "文档/编辑",
+      "issue_summary": "公式计算耗时过长，且功能有限",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L025"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L025",
+          "comment": "el cálculo de fórmulas en sus documentos tarda demasiado y es muy limitado en sus funciones"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "公式计算耗时过长，且功能有限"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-df3e1bab57a0",
+      "product": "飞书/Lark",
+      "issue_title": "日历：修改后的日程日期会比设定日期提前一天",
+      "product_module": "日历",
+      "issue_summary": "修改后的日程日期会比设定日期提前一天",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L006"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L006",
+          "comment": "日历有bug。新建了日程安排后如果改日期的话，新设定的日期会往前倒一天。比如我把开始时间从五月8日改成五月10日，按确定后时间会是9日。月视图下那个ui也是怪怪的，不太友好"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "修改后的日程日期会比设定日期提前一天"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-14aa7bb20e8f",
+      "product": "飞书/Lark",
+      "issue_title": "浏览器/外链：内置浏览器不允许 Google OAuth 登录，且机器人按钮等场景无法总是手动复制链接到外部浏览器；希望提供完全禁用内置浏览器、直接使用外部浏览器打开链接的选项。",
+      "product_module": "浏览器/外链",
+      "issue_summary": "内置浏览器不允许 Google OAuth 登录，且机器人按钮等场景无法总是手动复制链接到外部浏览器；希望提供完全禁用内置浏览器、直接使用外部浏览器打开链接的选项。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L009"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L009",
+          "comment": "PLEASE ENABLE OPTION TO COMPLETELY DISABLE IN-APP BROWSER AND LET US OPEN LINK DIRECTLY IN BROWSER. Lark in browser aren't allowed for Google Oauth login. And we can't always copy the link manually and paste in browser. for example, links opened through bot button. It's freaking annoying since day one using Lark."
+        }
+      ],
+      "feedback_type_distribution": {
+        "功能建议": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "内置浏览器不允许 Google OAuth 登录，且机器人按钮等场景无法总是手动复制链接到外部浏览器；希望提供完全禁用内置浏览器、直接使用外部浏览器打开链接的选项。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-a04d3766d3cf",
+      "product": "飞书/Lark",
+      "issue_title": "聊天/消息：图片文字提取功能点击后无法使用，经过三次更新仍未修复。",
+      "product_module": "聊天/消息",
+      "issue_summary": "图片文字提取功能点击后无法使用，经过三次更新仍未修复。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L031"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L031",
+          "comment": "bonne plateforme pour les groupes de travail et les organisations. mais depuis un moment la possibilité de copier un message sur une image n'est plus disponible (extraire le texte ne marche lorsque tu cliques dessus). trois mises à jour sont déjà passées et c'est pas toujours réglé."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "图片文字提取功能点击后无法使用，经过三次更新仍未修复。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-2aa0b6e3c578",
+      "product": "飞书/Lark",
+      "issue_title": "聊天/消息：希望增加对更多 meme 服务商的接入支持；提及和表情渲染问题已明确归因于 Samsung Keyboard，而非 Lark。",
+      "product_module": "聊天/消息",
+      "issue_summary": "希望增加对更多 meme 服务商的接入支持；提及和表情渲染问题已明确归因于 Samsung Keyboard，而非 Lark。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L008"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L008",
+          "comment": "The mention feature hasn't been functioning for me. I have tried to clear cache and update the app, but nothing happened. Please let us connect to tenor/ other meme vendors. update: apparently the problem with tagging and the emoji rendering is from samsung keyboard, not lark itself. I recently switched my keyboards on both tablet and phone to Google Keyboard and there hasn't been any problem."
+        }
+      ],
+      "feedback_type_distribution": {
+        "功能建议": 1
+      },
+      "severity_distribution": {
+        "低": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "希望增加对更多 meme 服务商的接入支持；提及和表情渲染问题已明确归因于 Samsung Keyboard，而非 Lark。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-410b68841037",
+      "product": "飞书/Lark",
+      "issue_title": "聊天/消息：缺少发送后修改内容、纠正打字错误的功能",
+      "product_module": "聊天/消息",
+      "issue_summary": "缺少发送后修改内容、纠正打字错误的功能",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L035"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L035",
+          "comment": "Es fehlt die Möglichkeit, Tippfehler zu korrigieren, nachdem ein Beitrag abgeschickt ist."
+        }
+      ],
+      "feedback_type_distribution": {
+        "功能建议": 1
+      },
+      "severity_distribution": {
+        "低": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "缺少发送后修改内容、纠正打字错误的功能"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-5775e076c278",
+      "product": "飞书/Lark",
+      "issue_title": "表格/Base：对上传 Base 的体验不满，具体困难未说明",
+      "product_module": "表格/Base",
+      "issue_summary": "对上传 Base 的体验不满，具体困难未说明",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L020"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L020",
+          "comment": "apk dongo kebanyakan lah pas upload base"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "对上传 Base 的体验不满，具体困难未说明"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-138b4f4a6e20",
+      "product": "飞书/Lark",
+      "issue_title": "账号验证码获取失败",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "不明原因被登出，之后持续收不到验证码，无法重新登录；应用不发送验证码，导致邮箱和手机号两种方式均无法完成注册",
+      "evidence_count": 2,
+      "evidence_ids": [
+        "L004",
+        "L028"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L004",
+          "comment": "登入後不明原因被登出，之後就一直收不到驗證碼"
+        },
+        {
+          "feedback_id": "L028",
+          "comment": "Não consigo registrar nem por e-mail e nem por telefone. O app não envia o código de verificação."
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 2
+      },
+      "severity_distribution": {
+        "高": 2
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "不明原因被登出，之后持续收不到验证码，无法重新登录",
+        "应用不发送验证码，导致邮箱和手机号两种方式均无法完成注册"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "anchor"
+    },
+    {
+      "issue_id": "ISS-354a717f42b9",
+      "product": "飞书/Lark",
+      "issue_title": "账号/登录/验证：所有登录方式均失败，用户表示日本人似乎也无法完成身份验证，要求尽快解决。",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "所有登录方式均失败，用户表示日本人似乎也无法完成身份验证，要求尽快解决。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L012"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L012",
+          "comment": "異常認証という謎の通知のあとに身分証認証を求められました。パスワード、SMS、メールすべてのやり方でログインを試みましたが全滅です。認証も日本人ではできないようです。早急に解決してほしいです。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "所有登录方式均失败，用户表示日本人似乎也无法完成身份验证，要求尽快解决。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-c91499babaff",
+      "product": "飞书/Lark",
+      "issue_title": "账号/登录/验证：无法登录原有账号",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "无法登录原有账号",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L021"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L021",
+          "comment": "kenapa tidak bisa login ke akun lama"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "无法登录原有账号"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-d51ee0010cdb",
+      "product": "飞书/Lark",
+      "issue_title": "账号/登录/验证：验证码迟迟未送达，无法完成登录验证",
+      "product_module": "账号/登录/验证",
+      "issue_summary": "验证码迟迟未送达，无法完成登录验证",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L017"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L017",
+          "comment": "đăng nhập từ chiều tới tối có cái mã xác nhận cũng không gửi được, app làm ăn chán"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 1
+      },
+      "severity_distribution": {
+        "高": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "验证码迟迟未送达，无法完成登录验证"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    },
+    {
+      "issue_id": "ISS-161bdf04491c",
+      "product": "飞书/Lark",
+      "issue_title": "消息提醒音量不足",
+      "product_module": "通知",
+      "issue_summary": "来电铃声不够响，一般通知提示音非常小",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L015"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L015",
+          "comment": "เสียงโทรเข้าไม่ค่อยดัง และเสียงแจ้งเตือนทั่วไปเบามากกกก"
+        }
+      ],
+      "feedback_type_distribution": {
+        "使用困难": 1
+      },
+      "severity_distribution": {
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "来电铃声不够响，一般通知提示音非常小"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "anchor"
+    },
+    {
+      "issue_id": "ISS-3955d4f6ed9d",
+      "product": "飞书/Lark",
+      "issue_title": "消息通知送达或显示异常",
+      "product_module": "通知",
+      "issue_summary": "开启多项后台保活设置后仍经常收不到消息通知，需手动进入主界面才能触发消息更新，影响消息及时获取。；安卓手机收不到消息推送，即时通讯的基础提醒能力失效；通知不送达或很快消失，调整手机及应用设置后仍未解决，影响工作使用。；收不到任何消息通知；通知接收异常，部分通知未出现在通知栏。",
+      "evidence_count": 5,
+      "evidence_ids": [
+        "L002",
+        "L003",
+        "L010",
+        "L016",
+        "L038"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L002",
+          "comment": "小米手机上经常收不到消息通知，即使开了保活的通知栏，给了后台无限制电源策略，给了自启动权限，在后台任务管理界面上加锁防止被清理，但还是没有消息通知，明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新。实在不行就接上小米推送或者其他国内稳定一定的推送服务吧，明明是一个即时通讯软件，搞得得手动去查看有没有消息…"
+        },
+        {
+          "feedback_id": "L003",
+          "comment": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样，基础能力不做好整天做些乱七八糟的功能，舍本逐末。市面上哪个流行的通讯APP不正常推的？"
+        },
+        {
+          "feedback_id": "L010",
+          "comment": "もう、半年以上使ってますが、通知がきません。もしくはすぐ消えます。スマホの設定、アプリの設定色々いじってもダメです。仕事で使っているので非常に困っています。"
+        }
+      ],
+      "feedback_type_distribution": {
+        "Bug": 5
+      },
+      "severity_distribution": {
+        "高": 4,
+        "中": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "开启多项后台保活设置后仍经常收不到消息通知，需手动进入主界面才能触发消息更新，影响消息及时获取。",
+        "安卓手机收不到消息推送，即时通讯的基础提醒能力失效",
+        "通知不送达或很快消失，调整手机及应用设置后仍未解决，影响工作使用。",
+        "收不到任何消息通知",
+        "通知接收异常，部分通知未出现在通知栏。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "anchor"
+    },
+    {
+      "issue_id": "ISS-e87ee6cccedb",
+      "product": "飞书/Lark",
+      "issue_title": "邮件：免费版缺少邮件路由及 catch-all 功能，希望开放使用。",
+      "product_module": "邮件",
+      "issue_summary": "免费版缺少邮件路由及 catch-all 功能，希望开放使用。",
+      "evidence_count": 1,
+      "evidence_ids": [
+        "L007"
+      ],
+      "representative_comments": [
+        {
+          "feedback_id": "L007",
+          "comment": "just amazing app 😃😀 loved 😻😍 left Google workspace and now enjoying it also skipped Microsoft 365 i had paid licence but still not using it just using Larc. just one problem i faced that in free version there is no email routing etc it should be for catch all etc but that disappointed me that for only that feature why i would upgrade when i have 20 users quota. hope product team will read my review and enable it. otherwise 10 ★ for this concept and easiness."
+        }
+      ],
+      "feedback_type_distribution": {
+        "功能建议": 1
+      },
+      "severity_distribution": {
+        "低": 1
+      },
+      "main_user_scenarios": [],
+      "core_user_pain": [
+        "免费版缺少邮件路由及 catch-all 功能，希望开放使用。"
+      ],
+      "review_status": "needs_review",
+      "review_note": "",
+      "merge_basis": "exact"
+    }
+  ],
+  "feedback_mapping": [
+    {
+      "feedback_id": "L001",
+      "product": "飞书/Lark",
+      "comment": "使用记录来看 国外版本还是不错的 但是或许还有其他跟更好点",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "2",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "L002",
+      "product": "飞书/Lark",
+      "comment": "小米手机上经常收不到消息通知，即使开了保活的通知栏，给了后台无限制电源策略，给了自启动权限，在后台任务管理界面上加锁防止被清理，但还是没有消息通知，明明app还在运行，非得时不时的进去主界面看一下才会触发消息更新。实在不行就接上小米推送或者其他国内稳定一定的推送服务吧，明明是一个即时通讯软件，搞得得手动去查看有没有消息…",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "通知",
+      "core_user_pain": "开启多项后台保活设置后仍经常收不到消息通知，需手动进入主界面才能触发消息更新，影响消息及时获取。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "3",
+      "eligible": true,
+      "issue_id": "ISS-3955d4f6ed9d",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L003",
+      "product": "飞书/Lark",
+      "comment": "安卓手机收不到消息推送，这是即时通讯APP最基础的能力。我小米和朋友华为都是这样，基础能力不做好整天做些乱七八糟的功能，舍本逐末。市面上哪个流行的通讯APP不正常推的？",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "通知",
+      "core_user_pain": "安卓手机收不到消息推送，即时通讯的基础提醒能力失效",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "4",
+      "eligible": true,
+      "issue_id": "ISS-3955d4f6ed9d",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L004",
+      "product": "飞书/Lark",
+      "comment": "登入後不明原因被登出，之後就一直收不到驗證碼",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "不明原因被登出，之后持续收不到验证码，无法重新登录",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "5",
+      "eligible": true,
+      "issue_id": "ISS-138b4f4a6e20",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L005",
+      "product": "飞书/Lark",
+      "comment": "Bug問題從2023開始。文件/文章已更改內容，但未能同步更新內容；重開lark後內容也沒有改變；有時候Delete 1-2個文字，系統還把全段內容再copy多一次。身為筆記本App來說，這些都是基礎問題，且半年以上仍未改善。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "文档/编辑",
+      "core_user_pain": "修改内容无法同步更新，重启后仍未改变；有时删除一两个文字会导致整段内容重复，问题持续半年以上未改善。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "6",
+      "eligible": true,
+      "issue_id": "ISS-201a6d766256",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L006",
+      "product": "飞书/Lark",
+      "comment": "日历有bug。新建了日程安排后如果改日期的话，新设定的日期会往前倒一天。比如我把开始时间从五月8日改成五月10日，按确定后时间会是9日。月视图下那个ui也是怪怪的，不太友好",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "日历",
+      "core_user_pain": "修改后的日程日期会比设定日期提前一天",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "7",
+      "eligible": true,
+      "issue_id": "ISS-df3e1bab57a0",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L007",
+      "product": "飞书/Lark",
+      "comment": "just amazing app 😃😀 loved 😻😍 left Google workspace and now enjoying it also skipped Microsoft 365 i had paid licence but still not using it just using Larc. just one problem i faced that in free version there is no email routing etc it should be for catch all etc but that disappointed me that for only that feature why i would upgrade when i have 20 users quota. hope product team will read my review and enable it. otherwise 10 ★ for this concept and easiness.",
+      "valid": true,
+      "feedback_type": "功能建议",
+      "product_module": "邮件",
+      "core_user_pain": "免费版缺少邮件路由及 catch-all 功能，希望开放使用。",
+      "severity": "低",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "8",
+      "eligible": true,
+      "issue_id": "ISS-e87ee6cccedb",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L008",
+      "product": "飞书/Lark",
+      "comment": "The mention feature hasn't been functioning for me. I have tried to clear cache and update the app, but nothing happened. Please let us connect to tenor/ other meme vendors. update: apparently the problem with tagging and the emoji rendering is from samsung keyboard, not lark itself. I recently switched my keyboards on both tablet and phone to Google Keyboard and there hasn't been any problem.",
+      "valid": true,
+      "feedback_type": "功能建议",
+      "product_module": "聊天/消息",
+      "core_user_pain": "希望增加对更多 meme 服务商的接入支持；提及和表情渲染问题已明确归因于 Samsung Keyboard，而非 Lark。",
+      "severity": "低",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "9",
+      "eligible": true,
+      "issue_id": "ISS-2aa0b6e3c578",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L009",
+      "product": "飞书/Lark",
+      "comment": "PLEASE ENABLE OPTION TO COMPLETELY DISABLE IN-APP BROWSER AND LET US OPEN LINK DIRECTLY IN BROWSER. Lark in browser aren't allowed for Google Oauth login. And we can't always copy the link manually and paste in browser. for example, links opened through bot button. It's freaking annoying since day one using Lark.",
+      "valid": true,
+      "feedback_type": "功能建议",
+      "product_module": "浏览器/外链",
+      "core_user_pain": "内置浏览器不允许 Google OAuth 登录，且机器人按钮等场景无法总是手动复制链接到外部浏览器；希望提供完全禁用内置浏览器、直接使用外部浏览器打开链接的选项。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "10",
+      "eligible": true,
+      "issue_id": "ISS-14aa7bb20e8f",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L010",
+      "product": "飞书/Lark",
+      "comment": "もう、半年以上使ってますが、通知がきません。もしくはすぐ消えます。スマホの設定、アプリの設定色々いじってもダメです。仕事で使っているので非常に困っています。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "通知",
+      "core_user_pain": "通知不送达或很快消失，调整手机及应用设置后仍未解决，影响工作使用。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "11",
+      "eligible": true,
+      "issue_id": "ISS-3955d4f6ed9d",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L011",
+      "product": "飞书/Lark",
+      "comment": "やはりいきなり有料化されることが発表された。無料枠はネット会議時間が短すぎるので、実質的に有料会員にならざるをえない。それまでには、チャンと日本語対応、日本の祭日表示、ヘルプの日本語化をやってほしい。",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "会议/通话",
+      "core_user_pain": "免费版网络会议时长过短，用户认为实际上不得不购买付费会员。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "12",
+      "eligible": true,
+      "issue_id": "ISS-5f72dc50f620",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L012",
+      "product": "飞书/Lark",
+      "comment": "異常認証という謎の通知のあとに身分証認証を求められました。パスワード、SMS、メールすべてのやり方でログインを試みましたが全滅です。認証も日本人ではできないようです。早急に解決してほしいです。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "所有登录方式均失败，用户表示日本人似乎也无法完成身份验证，要求尽快解决。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "13",
+      "eligible": true,
+      "issue_id": "ISS-354a717f42b9",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L013",
+      "product": "飞书/Lark",
+      "comment": "ใช้งานได้ดีค่ะมีตัวแปลภาษาได้ดีกว่าค่ะ",
+      "valid": true,
+      "feedback_type": "正向评价",
+      "product_module": "国际化/翻译",
+      "core_user_pain": "认可语言翻译功能的效果",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "14",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "positive_separate"
+    },
+    {
+      "feedback_id": "L014",
+      "product": "飞书/Lark",
+      "comment": "ใช้งานง่าย สะดวก รวดเร็ว แต่มีขอเสีย เสิร์ชหาข้อมูลจากข้อความเก่าๆ ในแชทไม่ค่อยเจอ 😂😂😁😁 พัฒนาต่อไปนะค่ะ",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "搜索",
+      "core_user_pain": "搜索旧聊天消息时不容易找到所需信息",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "15",
+      "eligible": true,
+      "issue_id": "ISS-b6ff08144dfa",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L015",
+      "product": "飞书/Lark",
+      "comment": "เสียงโทรเข้าไม่ค่อยดัง และเสียงแจ้งเตือนทั่วไปเบามากกกก",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "通知",
+      "core_user_pain": "来电铃声不够响，一般通知提示音非常小",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "16",
+      "eligible": true,
+      "issue_id": "ISS-161bdf04491c",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L016",
+      "product": "飞书/Lark",
+      "comment": "không có 1 thông báo từ tin nhắn",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "通知",
+      "core_user_pain": "收不到任何消息通知",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "17",
+      "eligible": true,
+      "issue_id": "ISS-3955d4f6ed9d",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L017",
+      "product": "飞书/Lark",
+      "comment": "đăng nhập từ chiều tới tối có cái mã xác nhận cũng không gửi được, app làm ăn chán",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "验证码迟迟未送达，无法完成登录验证",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "18",
+      "eligible": true,
+      "issue_id": "ISS-d51ee0010cdb",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L018",
+      "product": "飞书/Lark",
+      "comment": "bị lôi internet suốt",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "持续出现网络错误",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "19",
+      "eligible": true,
+      "issue_id": "ISS-7c1b6e57b3dd",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L019",
+      "product": "飞书/Lark",
+      "comment": "Aplikasinya bagus,saran untuk diadakan fitur arsip agar tidak menumpuk disatu beranda",
+      "valid": true,
+      "feedback_type": "功能建议",
+      "product_module": "其他",
+      "core_user_pain": "希望增加归档功能，避免内容集中堆积在首页",
+      "severity": "低",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "20",
+      "eligible": true,
+      "issue_id": "ISS-89bb73e00091",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L020",
+      "product": "飞书/Lark",
+      "comment": "apk dongo kebanyakan lah pas upload base",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "表格/Base",
+      "core_user_pain": "对上传 Base 的体验不满，具体困难未说明",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3\\evaluation_detail.xlsx",
+      "source_run": "v3",
+      "original_excel_row": "21",
+      "eligible": true,
+      "issue_id": "ISS-5775e076c278",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L021",
+      "product": "飞书/Lark",
+      "comment": "kenapa tidak bisa login ke akun lama",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "无法登录原有账号",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "22",
+      "eligible": true,
+      "issue_id": "ISS-c91499babaff",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L022",
+      "product": "飞书/Lark",
+      "comment": "화면에 9명밖에 안보여 아쉽지만 수업을 위한 최고어플",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "会议/通话",
+      "core_user_pain": "屏幕上只能显示9人，用户对此感到遗憾",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "23",
+      "eligible": true,
+      "issue_id": "ISS-dba1780bcdf1",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L023",
+      "product": "飞书/Lark",
+      "comment": "업무에 최적화 되어 있는 느낌?",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "24",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "L024",
+      "product": "飞书/Lark",
+      "comment": "업무에 매우 최고 ㅠㅠ",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "25",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "L025",
+      "product": "飞书/Lark",
+      "comment": "el cálculo de fórmulas en sus documentos tarda demasiado y es muy limitado en sus funciones",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "文档/编辑",
+      "core_user_pain": "公式计算耗时过长，且功能有限",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "26",
+      "eligible": true,
+      "issue_id": "ISS-9dd461e59873",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L026",
+      "product": "飞书/Lark",
+      "comment": "Exelente plataforma trae todo en 1, usar las autorizaciones de los base y flujos de trabajo están excelentes; solo un detalle: no se pueden compartir fotos o documentos de lark a otras plataformas directamente desde el móvil.",
+      "valid": true,
+      "feedback_type": "功能建议",
+      "product_module": "文件/分享",
+      "core_user_pain": "手机端不支持直接将照片或文档分享到其他平台",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "27",
+      "eligible": true,
+      "issue_id": "ISS-9391a9f3334f",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L027",
+      "product": "飞书/Lark",
+      "comment": "Muy buena la aplicación en cuanto a funcionalidad, pero debería ocupar menos espacio en el celular (más de 1 GB a los pocos días) y ser más rápida en meetings; el silencio del micrófono tarda un poco en responder.",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "会议/通话",
+      "core_user_pain": "会议中麦克风静音响应略有延迟，用户希望会议操作更流畅。",
+      "severity": "低",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "28",
+      "eligible": true,
+      "issue_id": "ISS-baac825df79f",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L028",
+      "product": "飞书/Lark",
+      "comment": "Não consigo registrar nem por e-mail e nem por telefone. O app não envia o código de verificação.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "应用不发送验证码，导致邮箱和手机号两种方式均无法完成注册",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "29",
+      "eligible": true,
+      "issue_id": "ISS-138b4f4a6e20",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L029",
+      "product": "飞书/Lark",
+      "comment": "O melhor aplicativo para trabalho individual e trabalho em grupo que eu já vi. Desde planilhas e gráficos à textos com imagens. Ele é excelente na sua função, e conta com a facilidade de comunicação com pessoas ou documentos estrangeiros devido a sua tradução simultânea.",
+      "valid": true,
+      "feedback_type": "正向评价",
+      "product_module": "国际化/翻译",
+      "core_user_pain": "认可即时翻译带来的跨语言沟通和文档理解便利",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "30",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "positive_separate"
+    },
+    {
+      "feedback_id": "L030",
+      "product": "飞书/Lark",
+      "comment": "Melhor ferramenta para organizações profissionais que já utilizei. Muito eficaz, simples de utilizar e muito completo. 100% satisfeito, actualmente não troco por nada.",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "31",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "L031",
+      "product": "飞书/Lark",
+      "comment": "bonne plateforme pour les groupes de travail et les organisations. mais depuis un moment la possibilité de copier un message sur une image n'est plus disponible (extraire le texte ne marche lorsque tu cliques dessus). trois mises à jour sont déjà passées et c'est pas toujours réglé.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "聊天/消息",
+      "core_user_pain": "图片文字提取功能点击后无法使用，经过三次更新仍未修复。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "32",
+      "eligible": true,
+      "issue_id": "ISS-a04d3766d3cf",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L032",
+      "product": "飞书/Lark",
+      "comment": "Sans plus sa bug sa oublie mon identifiant sa me met sur d'autre appel c'est vraiment pas conseillé si vous êtes une personne qui cherche pas la difficulté",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "会议/通话",
+      "core_user_pain": "系统将用户接入非预期的其他通话",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "33",
+      "eligible": true,
+      "issue_id": "ISS-6bb421c63121",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L033",
+      "product": "飞书/Lark",
+      "comment": "Un outil de communication intime pour le travail, je vous conseil vivement de l'utiliser en cas professionnel.",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "34",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "L034",
+      "product": "飞书/Lark",
+      "comment": "Ansich gut zum Arbeiten und chatten, jedoch wird im Workplace der Bildschirm gezoomt sobald man mit einer Taste interagiert. 👍",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "其他",
+      "core_user_pain": "一旦按键交互，屏幕就会异常缩放",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "35",
+      "eligible": true,
+      "issue_id": "ISS-9b281bd1143e",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L035",
+      "product": "飞书/Lark",
+      "comment": "Es fehlt die Möglichkeit, Tippfehler zu korrigieren, nachdem ein Beitrag abgeschickt ist.",
+      "valid": true,
+      "feedback_type": "功能建议",
+      "product_module": "聊天/消息",
+      "core_user_pain": "缺少发送后修改内容、纠正打字错误的功能",
+      "severity": "低",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "36",
+      "eligible": true,
+      "issue_id": "ISS-410b68841037",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L036",
+      "product": "飞书/Lark",
+      "comment": "Ich habe meine Lark Arbeitsgruppe am Smartphone. Warum geht es nicht parallel an meinem PC? Ich hab sogar mich mit meiner Mitgliedschaft Code abgemeldet und hat nicht funktioniert",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "兼容性/多端",
+      "core_user_pain": "无法在电脑端并行使用手机上的 Lark 工作群，尝试成员代码相关操作后仍未成功。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "37",
+      "eligible": true,
+      "issue_id": "ISS-58f66da193f5",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L037",
+      "product": "飞书/Lark",
+      "comment": "Много где лагает. Чаты сделаны неудобно абсолютно. Приходит новое сообщение и тебе надо листать вниз чтобы увидеть его. Переведено кошмарно. Реакции на сообщения тоже ставятся неудобно. Не видно даже когда человек печатает.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "产品多处运行卡顿，使用不流畅。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "38",
+      "eligible": true,
+      "issue_id": "ISS-ff6a31476cf0",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L038",
+      "product": "飞书/Lark",
+      "comment": "После обновления начали очень странно приходить уведомления в шторку. Не все приходят. При этом энергосбережение выключено",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "通知",
+      "core_user_pain": "通知接收异常，部分通知未出现在通知栏。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "39",
+      "eligible": true,
+      "issue_id": "ISS-3955d4f6ed9d",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "L039",
+      "product": "飞书/Lark",
+      "comment": "Приложение оперативно работает, на занимает много памяти.",
+      "valid": true,
+      "feedback_type": "正向评价",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "认可应用运行迅速",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "40",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "positive_separate"
+    },
+    {
+      "feedback_id": "L040",
+      "product": "飞书/Lark",
+      "comment": "Bagus berjalan dengan lancar",
+      "valid": true,
+      "feedback_type": "正向评价",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "认可产品运行流畅",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "41",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "positive_separate"
+    },
+    {
+      "feedback_id": "L041",
+      "product": "飞书/Lark",
+      "comment": "Ok",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "42",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "L042",
+      "product": "飞书/Lark",
+      "comment": "On",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "43",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "L043",
+      "product": "飞书/Lark",
+      "comment": "เจริญรุ่งเรือง",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "44",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "W001",
+      "product": "企业微信/WeCom",
+      "comment": "Google play没有微信主版，所以就登陆不上去微信登录法，而又不能手机帐号密码登录法，所以就登陆不上去，又不能注册。无法下载额外的文件，无法使用，他老提示要下载额外的文件，但是一直下载不成。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "无法通过微信或手机账号密码登录，也无法注册；应用反复提示下载额外文件，但一直下载失败，导致无法使用。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "45",
+      "eligible": true,
+      "issue_id": "ISS-e38efba239d3",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W002",
+      "product": "企业微信/WeCom",
+      "comment": "一个流氓软件，动不动就被强制退出了，提示登录过期，重新登录明明提供了密码，手机验证，还强制刷脸。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "频繁被强制退出登录，重新登录还被要求多重验证及强制刷脸。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "46",
+      "eligible": true,
+      "issue_id": "ISS-c89f9f1a604a",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W003",
+      "product": "企业微信/WeCom",
+      "comment": "安装完打开提示需要下载额外文件，一直点下载 一直弹，什么垃圾应用啊",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "安装/更新",
+      "core_user_pain": "点击下载后仍反复弹出额外文件下载提示",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "47",
+      "eligible": true,
+      "issue_id": "ISS-6b4345525155",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W004",
+      "product": "企业微信/WeCom",
+      "comment": "最近已經發生了2次：不能進入，閃退後彈出，只有重新安裝才能解決問題",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "近期两次无法进入应用并闪退，只有重新安装才能解决",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "48",
+      "eligible": true,
+      "issue_id": "ISS-681b00680ef3",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W005",
+      "product": "企业微信/WeCom",
+      "comment": "今突然跳出要下載程式才能使用之類文字，但又不能下載，整個app重新安裝後也一樣！線上工作因此整個停擺。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "安装/更新",
+      "core_user_pain": "要求下载程式却无法下载，重装后问题依旧，导致线上工作完全停摆。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "49",
+      "eligible": true,
+      "issue_id": "ISS-517b5e9f5977",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W006",
+      "product": "企业微信/WeCom",
+      "comment": "9/30跳出更新完畢後，企業微信跳出需下載額外檔案，點擊下載系統都顯示失敗，並且再也無法打開。後來移除企業微信並重新下載4.1.30版本後恢復。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "安装/更新",
+      "core_user_pain": "更新后所需额外文件下载失败，导致应用无法打开，需卸载重装才能恢复。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "50",
+      "eligible": true,
+      "issue_id": "ISS-6b4345525155",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W007",
+      "product": "企业微信/WeCom",
+      "comment": "Installed WeCom from Google Play on my iData T1 Pro. On launch, it asks to download 94 MB of additional files. After I tap Download, it briefly shows “Loading... 0%” and immediately returns to the same prompt. This repeats endlessly, with no error message, so the app is unusable. Reinstalling did not help.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "安装/更新",
+      "core_user_pain": "附加文件下载短暂显示 0% 后立即返回下载提示，陷入无限循环且无报错，导致应用无法使用，重新安装也无效。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "51",
+      "eligible": true,
+      "issue_id": "ISS-6b4345525155",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W008",
+      "product": "企业微信/WeCom",
+      "comment": "What a buggy mess. Push notifications never come through, even though they are enabled. If you have dark mode enabled, they didn't think to make the text white when typing out an email, so black text on a black page.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "通知",
+      "core_user_pain": "推送通知已启用，但始终无法收到。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "52",
+      "eligible": true,
+      "issue_id": "ISS-ff49af320a20",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W009",
+      "product": "企业微信/WeCom",
+      "comment": "i used to download recently and after installation it require me to 'download additional features' but these 'features' get more and more so now i have infinite loading of something instead of direct using of app",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "附加功能下载不断增加，应用陷入无限加载，无法直接使用",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "53",
+      "eligible": true,
+      "issue_id": "ISS-f52b84759416",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W010",
+      "product": "企业微信/WeCom",
+      "comment": "แอปกากมากกก กกเข้าดูเงินเดือนแล้วดีด เป็นอะไรนักหนาาา เข้าที 10 รอบก็ไม่ได้เลย ไปพัฒนาแอปไป๊",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "查看工资时被退出，尝试10次仍无法进入",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "54",
+      "eligible": true,
+      "issue_id": "ISS-9fd4e3b83181",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W011",
+      "product": "企业微信/WeCom",
+      "comment": "โหลดมา แต่พอจะเข้าดันไม่โหลดให้ พอกดอัปเดต ก็ไม่ได้ คืออะไร",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "进入应用时无法加载，点击更新也无法完成",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "55",
+      "eligible": true,
+      "issue_id": "ISS-079b88442a5c",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W012",
+      "product": "企业微信/WeCom",
+      "comment": "แย่ เข้ารอบสองไม่ได้ อัปเดตแล้วก็ยังเข้าไม่อีก",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "无法再次进入应用，更新后仍未解决",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "56",
+      "eligible": true,
+      "issue_id": "ISS-db081d568173",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W013",
+      "product": "企业微信/WeCom",
+      "comment": "quá kén điện thoại",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "兼容性/多端",
+      "core_user_pain": "产品挑手机，对手机的兼容适配不佳",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "57",
+      "eligible": true,
+      "issue_id": "ISS-d24e66adca12",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W014",
+      "product": "企业微信/WeCom",
+      "comment": "không dùng được",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "58",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "W015",
+      "product": "企业微信/WeCom",
+      "comment": "mua điện thoại mới rồi reset điện thoại cũ khi vẫn còn đăng nhập ở điện thoại cũ, vậy là qua bên điện thoại mới nó bắt xác thực ở điện thoại cũ. tải lại ở điện thoại cũ để đăng nhập lại vẫn bắt xác thực trên chính điện thoại cũ. chịu",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "新手机登录要求在旧手机上验证，旧手机重装后登录仍要求在旧手机自身验证，陷入验证循环，无法完成登录。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "59",
+      "eligible": true,
+      "issue_id": "ISS-568ec73ccc90",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W016",
+      "product": "企业微信/WeCom",
+      "comment": "heran bgt pdhal ni hp gw masih kuat buat game berat dn bisa rata kanan, tp giliran buka apk ini tidak menanggapi terus😭😭😭",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "打开应用后持续无响应",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "60",
+      "eligible": true,
+      "issue_id": "ISS-3d451f99e867",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W017",
+      "product": "企业微信/WeCom",
+      "comment": "aplikasi tidak bisa di buka tulisannya perbarui padahal sudah versi terbaru",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "安装/更新",
+      "core_user_pain": "应用已是最新版本却仍要求更新，导致无法打开",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "61",
+      "eligible": true,
+      "issue_id": "ISS-46a0ec1fda2e",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W018",
+      "product": "企业微信/WeCom",
+      "comment": "Ekosistem Tencent: Terintegrasi dengan WeChat dan layanan Tencent lainnya, sehingga memudahkan komunikasi dengan rekan kerja maupun pihak luar.",
+      "valid": true,
+      "feedback_type": "正向评价",
+      "product_module": "客户管理/外部联系",
+      "core_user_pain": "认可腾讯生态集成使内部及外部沟通更方便",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "62",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "positive_separate"
+    },
+    {
+      "feedback_id": "W019",
+      "product": "企业微信/WeCom",
+      "comment": "Con esta app china, ten en cuenta que tú conversación jamás será privada y los que tengan acceso (secreto) van a espiar todos tus mensajes.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "聊天/消息",
+      "core_user_pain": "用户认为聊天缺乏隐私保护，拥有秘密访问权限的人可窥探所有消息",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "63",
+      "eligible": true,
+      "issue_id": "ISS-b71e6b21b33a",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W020",
+      "product": "企业微信/WeCom",
+      "comment": "Todavía no he llegado a usar la app ya que no me puedo registrar con mi número de teléfono. Soy de República Dominicana y el prefijo 829 que uso actualmente no se encuentra entre la lista del registro.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "注册列表中没有用户使用的829电话前缀，导致无法注册并开始使用应用。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "64",
+      "eligible": true,
+      "issue_id": "ISS-b2b2d4f47962",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W021",
+      "product": "企业微信/WeCom",
+      "comment": "No llegan notificaciones cuando se activa ahorro de batería, fuera de eso bastante estable y con funciones interesantes",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "通知",
+      "core_user_pain": "开启省电模式后收不到通知",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "65",
+      "eligible": true,
+      "issue_id": "ISS-31e97b3eccb3",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W022",
+      "product": "企业微信/WeCom",
+      "comment": "Tudo em chinês, o inglês é incompleto e o português/espanhol não existe. Os termos e condições em chinês; para ações corporativas tem sua utilidade, porém muito limitada devido ao idioma incompreensível.",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "国际化/翻译",
+      "core_user_pain": "界面主要为中文，英文翻译不完整，缺少葡萄牙语和西班牙语，条款与条件也为中文，语言难以理解导致产品实用性受限。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "66",
+      "eligible": true,
+      "issue_id": "ISS-5334fcf32d8f",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W023",
+      "product": "企业微信/WeCom",
+      "comment": "muito ruim. não consigo usar. fica pedindo para utilizar versão mais nova. mais não se encontra versão mais nova em lugar nenhum",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "安装/更新",
+      "core_user_pain": "反复提示使用更新版本，却无处找到新版本，导致无法使用。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "67",
+      "eligible": true,
+      "issue_id": "ISS-e2fd11b15a0a",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W024",
+      "product": "企业微信/WeCom",
+      "comment": "Não consigo trocar a linguagem pra poder configurar e poder trabalhar!!!!",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "国际化/翻译",
+      "core_user_pain": "无法完成语言切换，影响配置和工作使用",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "68",
+      "eligible": true,
+      "issue_id": "ISS-ab72710c8df7",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W025",
+      "product": "企业微信/WeCom",
+      "comment": "Interessiert mich überhaupt nicjt",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "69",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "W026",
+      "product": "企业微信/WeCom",
+      "comment": "Neue generation office-tool",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "70",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "W027",
+      "product": "企业微信/WeCom",
+      "comment": "Nice program but my surface language changed to Chinese and I can't switch it back... help desk seems to be helpless, too!",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "国际化/翻译",
+      "core_user_pain": "界面语言异常变为中文且无法切换回原语言，客服似乎也无法解决。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "71",
+      "eligible": true,
+      "issue_id": "ISS-ab72710c8df7",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W028",
+      "product": "企业微信/WeCom",
+      "comment": "Переключение на английский язык не работает. Зарегистрировался наощупь через WeChat. На главном экране понял, что моего китайского не хватает. Переустановил через .apk с официального сайта. Появился английский. Получил перманентный бан за подозрение в нарушении законов.",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "风控/申诉",
+      "core_user_pain": "账号因涉嫌违反法律被永久封禁，无法继续使用。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "72",
+      "eligible": true,
+      "issue_id": "ISS-d0708c75acf2",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W029",
+      "product": "企业微信/WeCom",
+      "comment": "ужасное приложение!!!! говорит типо у меня плохой интернет но он прекрасный и работает очень быстро; нажимала миллион раз чтобы он загрузил и все равно говорит нет интернета",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "性能/稳定性",
+      "core_user_pain": "用户表示网络正常且速度很快，但应用反复提示无网络，无法完成加载。",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "73",
+      "eligible": true,
+      "issue_id": "ISS-ff149ccff3aa",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W030",
+      "product": "企业微信/WeCom",
+      "comment": "даже после выбора английского языка все на китайском, ничего не понятно, делала все интуитивно и все равно не получилось зарегистрироваться",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "国际化/翻译",
+      "core_user_pain": "选择英语后界面仍全部显示中文，用户无法理解，凭直觉操作仍未能完成注册。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "74",
+      "eligible": true,
+      "issue_id": "ISS-ab72710c8df7",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W031",
+      "product": "企业微信/WeCom",
+      "comment": "Fuh",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "75",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "W032",
+      "product": "企业微信/WeCom",
+      "comment": "Ok",
+      "valid": false,
+      "feedback_type": "情绪/无效反馈",
+      "product_module": "其他",
+      "core_user_pain": "未识别",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "76",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "invalid_or_not_problem"
+    },
+    {
+      "feedback_id": "W033",
+      "product": "企业微信/WeCom",
+      "comment": "Gagal Login",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "登录失败",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "77",
+      "eligible": true,
+      "issue_id": "ISS-d5f85d2ed988",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W034",
+      "product": "企业微信/WeCom",
+      "comment": "我要反馈企业微信严重的规则设计缺陷问题：原有账号由微信授权登录创建，后续绑定手机号并长期办公；管理员普通删除成员后，后台无离职记录、无离职继承入口、无系统风险提示。用同一手机号重新加入后生成全新账号，即便再次绑定微信，也无法同步或找回原账号聊天、群聊、文件、权限等数据。评论者认为同样是手机号+微信双重绑定的正式成员，仅因初始创建方式不同而存在完全不同的数据保护与交接规则，且缺乏提示。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "工作流/权限/组织",
+      "core_user_pain": "删除成员后无离职记录、继承入口或风险提示；重新加入生成新账号，原账号聊天、群聊、文件和权限等数据无法同步或找回。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "78",
+      "eligible": true,
+      "issue_id": "ISS-1d03311fcf65",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W035",
+      "product": "企业微信/WeCom",
+      "comment": "帐号验证有严重bug，跟帮助文档里提供的信息不符。选择微信登陆时只有同事辅助验证，但本人账号不在要求验证的公司里；手机号登陆又只提供同事辅助验证和原设备扫码。帮助文档提到的短信验证和实名验证多次尝试都未出现，联系客服也未解决。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "登录验证仅提供无法满足的同事辅助验证或原设备扫码，帮助文档所述短信验证和实名验证多次尝试均未出现，联系客服仍未解决。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "79",
+      "eligible": true,
+      "issue_id": "ISS-60fd2c14126f",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W036",
+      "product": "企业微信/WeCom",
+      "comment": "一旦注册，注销门槛特别高。联系客服沟通注销问题，等待时间长，耗时近两个小时仍未解决，评论者同时表达了对个人信息安全和授权流程的不满。",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "账号/登录/验证",
+      "core_user_pain": "注销门槛高，客服等待时间长，耗时近两小时仍未解决；对个人信息安全和授权流程不满",
+      "severity": "中",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "80",
+      "eligible": true,
+      "issue_id": "ISS-ad4d08824d91",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W037",
+      "product": "企业微信/WeCom",
+      "comment": "和个人微信打通后消息沟通顺畅；客户管理的标签分组、快捷回复、跟进记录、离职继承等功能提升效率；在线文档协作和实时评论减少版本混乱；客户联系和朋友圈精准推送也被认为有助于销售转化。",
+      "valid": true,
+      "feedback_type": "正向评价",
+      "product_module": "客户管理/外部联系",
+      "core_user_pain": "认可客户管理功能提升效率，客户联系和朋友圈精准推送有助于销售转化",
+      "severity": "不适用",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "81",
+      "eligible": false,
+      "issue_id": "",
+      "exclusion_reason": "positive_separate"
+    },
+    {
+      "feedback_id": "W038",
+      "product": "企业微信/WeCom",
+      "comment": "被骗子拉进企业微信群后遭踢出，之后账号显示违规永久封号。多次申诉后仍被要求找企业管理员，长时间未解决，评论者认为封号与申诉处理机制不合理。",
+      "valid": true,
+      "feedback_type": "使用困难",
+      "product_module": "风控/申诉",
+      "core_user_pain": "账号被永久封禁后，多次申诉仍被要求联系企业管理员，长时间未能解决。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "82",
+      "eligible": true,
+      "issue_id": "ISS-b533116a5435",
+      "exclusion_reason": ""
+    },
+    {
+      "feedback_id": "W039",
+      "product": "企业微信/WeCom",
+      "comment": "企业微信的在职继承提示说明与实际结果不一致。评论者想把自己作为群主的群转移给他人，同时在职期间继续留群，但操作后自己立即退群，被继承者又触发风控并被禁封；多次投诉未处理。",
+      "valid": true,
+      "feedback_type": "Bug",
+      "product_module": "客户管理/外部联系",
+      "core_user_pain": "在职继承提示与实际结果不一致，操作后本人立即退群，被继承者触发风控被封禁，多次投诉未获处理。",
+      "severity": "高",
+      "user_scenario": "",
+      "scenario_source": "not_saved",
+      "source_file": "C:\\Users\\12911\\Documents\\ChatGPT\\ai_feedback_workbench\\evaluation\\results\\v3_holdout\\evaluation_detail.xlsx",
+      "source_run": "v3_holdout",
+      "original_excel_row": "83",
+      "eligible": true,
+      "issue_id": "ISS-c1496876336d",
+      "exclusion_reason": ""
+    }
+  ],
+  "summary": {
+    "input_count": 82,
+    "eligible_count": 63,
+    "excluded_count": 19,
+    "coarse_group_count": 24,
+    "issue_count": 54,
+    "needs_review_count": 54,
+    "eligible_by_product": {
+      "飞书/Lark": 31,
+      "企业微信/WeCom": 32
+    },
+    "missing_scenario_count": 82,
+    "model_api_calls": 0
+  }
+}
